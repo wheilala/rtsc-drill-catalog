@@ -1,4 +1,6 @@
 ---
+import { withBase } from "../lib/paths.js";
+
 const { drill } = Astro.props;
 
 const groupSizeLabel =
@@ -15,9 +17,9 @@ const groupSizeLabel =
   data-max={drill.groupSize?.max ?? ""}
   data-has-video={drill.videos?.length ? "true" : "false"}
 >
-  <a class="drill-card-link" href={`${Astro.base || ""}/drills/${drill.slug}`}>
+  <a class="drill-card-link" href={withBase(`/drills/${drill.slug}`)}>
     {drill.diagram?.localPath ? (
-      <img class="drill-card-image" src={drill.diagram.localPath} alt={drill.diagram.alt || ""} />
+      <img class="drill-card-image" src={withBase(drill.diagram.localPath)} alt={drill.diagram.alt || ""} />
     ) : (
       <div class="drill-card-image placeholder">No diagram yet</div>
     )}

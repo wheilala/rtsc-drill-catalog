@@ -1,5 +1,6 @@
 ---
 import "../styles/global.css";
+import { withBase } from "../lib/paths.js";
 
 const {
   title = "RTSC Drill Catalog",
@@ -19,10 +20,10 @@ const {
   <body>
     <div class="site-shell">
       <header class="site-header">
-        <a class="brand" href={`${Astro.base || ""}/`}>RTSC Drill Catalog</a>
+        <a class="brand" href={withBase("/")}>RTSC Drill Catalog</a>
         <nav class="site-nav" aria-label="Primary">
-          <a href={`${Astro.base || ""}/drills`}>Drills</a>
-          <a href={`${Astro.base || ""}/session-plans`}>Session Plans</a>
+          <a href={withBase("/drills")}>Drills</a>
+          <a href={withBase("/session-plans")}>Session Plans</a>
         </nav>
       </header>
       <main class="site-main">

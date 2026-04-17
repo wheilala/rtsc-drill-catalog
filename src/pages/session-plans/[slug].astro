@@ -1,5 +1,6 @@
 ---
 import SiteLayout from "../../layouts/SiteLayout.astro";
+import { withBase } from "../../lib/paths.js";
 import { getAllSessionPlans, getSessionPlanBySlug } from "../../lib/content.js";
 
 export async function getStaticPaths() {
@@ -19,7 +20,7 @@ const sessionPlan = await getSessionPlanBySlug(Astro.params.slug);
     <p class="eyebrow">Session plan</p>
     <h1>{sessionPlan.title}</h1>
     {sessionPlan.summary ? <p class="lede">{sessionPlan.summary}</p> : null}
-    {sessionPlan.heroImage ? <img class="detail-hero" src={sessionPlan.heroImage} alt="" /> : null}
+    {sessionPlan.heroImage ? <img class="detail-hero" src={withBase(sessionPlan.heroImage)} alt="" /> : null}
     <section class="detail-section prose" set:html={sessionPlan.html} />
   </article>
 </SiteLayout>

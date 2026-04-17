@@ -1,6 +1,7 @@
 ---
 import SiteLayout from "../../layouts/SiteLayout.astro";
 import VideoEmbed from "../../components/VideoEmbed.astro";
+import { withBase } from "../../lib/paths.js";
 import { getAllDrills, getDrillBySlug } from "../../lib/content.js";
 
 export async function getStaticPaths() {
@@ -26,7 +27,7 @@ const groupSizeLabel =
     {drill.summary ? <p class="lede">{drill.summary}</p> : null}
 
     {drill.diagram?.localPath ? (
-      <img class="detail-hero" src={drill.diagram.localPath} alt={drill.diagram.alt || ""} />
+      <img class="detail-hero" src={withBase(drill.diagram.localPath)} alt={drill.diagram.alt || ""} />
     ) : null}
 
     <section class="meta-row">

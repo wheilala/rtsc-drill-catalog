@@ -1,5 +1,6 @@
 ---
 import SiteLayout from "../../layouts/SiteLayout.astro";
+import { withBase } from "../../lib/paths.js";
 import { getAllSessionPlans } from "../../lib/content.js";
 
 const sessionPlans = await getAllSessionPlans();
@@ -16,8 +17,8 @@ const sessionPlans = await getAllSessionPlans();
     {sessionPlans.length ? (
       sessionPlans.map((plan) => (
         <article class="session-card">
-          <a class="session-card-link" href={`${Astro.base || ""}/session-plans/${plan.slug}`}>
-            {plan.heroImage ? <img class="session-card-image" src={plan.heroImage} alt="" /> : null}
+          <a class="session-card-link" href={withBase(`/session-plans/${plan.slug}`)}>
+            {plan.heroImage ? <img class="session-card-image" src={withBase(plan.heroImage)} alt="" /> : null}
             <div class="session-card-body">
               <h2>{plan.title}</h2>
               <p>{plan.summary || "No summary added yet."}</p>
