@@ -8,17 +8,17 @@ const drills = await getAllDrills();
 const sessionPlans = await getAllSessionPlans();
 ---
 
-<SiteLayout title="Wayne's RTSC Drill Catalog" description="Coach-facing drill library and curated session plans.">
+<SiteLayout title="Wayne's RTSC Drill Catalog" description="Coach-facing drill library and session plans in progress.">
   <section class="hero">
     <div class="hero-copy">
       <p class="eyebrow">RTSC Coaching Library</p>
-      <h1>Shared drills and session plans for club coaches.</h1>
+      <h1>Shared drills for club coaches, with session plans still in progress.</h1>
       <p class="lede">
         Browse the drill catalog by topic and group size, then open drill pages with diagrams and video references.
       </p>
       <div class="hero-actions">
         <a class="button-link" href={withBase("/drills")}>Browse drills</a>
-        <a class="button-link secondary" href={withBase("/session-plans")}>View session plans</a>
+        <a class="button-link secondary" href={withBase("/session-plans")}>View session plans (WIP)</a>
       </div>
       <div class="hero-inline-stats">
         <div>
@@ -27,7 +27,7 @@ const sessionPlans = await getAllSessionPlans();
         </div>
         <div>
           <strong>{sessionPlans.length}</strong>
-          <span>Curated session plans (coming soon)</span>
+          <span>Session plans (WIP)</span>
         </div>
       </div>
     </div>
