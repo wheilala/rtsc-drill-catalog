@@ -37,6 +37,10 @@ export function sanitizeRichHtml(value) {
   return sanitizeHtml(normalized, sanitizeOptions);
 }
 
+export function repairRichTextArtifacts(value) {
+  return repairMojibake(value);
+}
+
 export function htmlToPlainText(value) {
   return sanitizeHtml(String(value || ""), {
     allowedTags: [],
@@ -183,11 +187,14 @@ export function parseVideoLink(urlValue) {
 
 function repairMojibake(value) {
   return String(value || "")
+    .replaceAll("Â ", " ")
     .replaceAll("Â ", " ")
     .replaceAll("Â", "")
     .replaceAll("â€™", "'")
+    .replaceAll("â€˜", "'")
     .replaceAll("â€œ", '"')
     .replaceAll("â€", '"')
+    .replaceAll("â€¦", "...")
     .replaceAll("â€“", "-")
     .replaceAll("â€”", "-");
 }
