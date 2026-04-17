@@ -1,0 +1,35 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import { getAllSessionPlans } from "../../lib/content.js";
+
+const sessionPlans = await getAllSessionPlans();
+---
+
+<SiteLayout title="Session Plans | RTSC Drill Catalog" description="Curated session plans for club coaches.">
+  <section class="page-header">
+    <p class="eyebrow">Session plans</p>
+    <h1>Curated session plans</h1>
+    <p class="lede">Selected authored plans published separately from the drill catalog.</p>
+  </section>
+
+  <section class="session-grid">
+    {sessionPlans.length ? (
+      sessionPlans.map((plan) => (
+        <article class="session-card">
+          <a class="session-card-link" href={`${Astro.base || ""}/session-plans/${plan.slug}`}>
+            {plan.heroImage ? <img class="session-card-image" src={plan.heroImage} alt="" /> : null}
+            <div class="session-card-body">
+              <h2>{plan.title}</h2>
+              <p>{plan.summary || "No summary added yet."}</p>
+            </div>
+          </a>
+        </article>
+      ))
+    ) : (
+      <div class="empty-state">
+        <h2>No session plans published yet</h2>
+        <p>Add Notion page IDs to the allowlist and run the sync to publish curated plans.</p>
+      </div>
+    )}
+  </section>
+</SiteLayout>

@@ -1,0 +1,33 @@
+---
+import SiteLayout from "../layouts/SiteLayout.astro";
+import { getAllDrills, getAllSessionPlans } from "../lib/content.js";
+
+const drills = await getAllDrills();
+const sessionPlans = await getAllSessionPlans();
+---
+
+<SiteLayout title="RTSC Drill Catalog" description="Coach-facing drill library and curated session plans.">
+  <section class="hero">
+    <div class="hero-copy">
+      <p class="eyebrow">RTSC coaching library</p>
+      <h1>Shared drills and session plans for club coaches.</h1>
+      <p class="lede">
+        Browse the drill catalog by topic and group size, then open drill pages with diagrams and video references.
+      </p>
+      <div class="hero-actions">
+        <a class="button-link" href={`${Astro.base || ""}/drills`}>Browse drills</a>
+        <a class="button-link secondary" href={`${Astro.base || ""}/session-plans`}>View session plans</a>
+      </div>
+    </div>
+    <div class="stat-panel">
+      <div>
+        <strong>{drills.length}</strong>
+        <span>Published drills</span>
+      </div>
+      <div>
+        <strong>{sessionPlans.length}</strong>
+        <span>Curated session plans</span>
+      </div>
+    </div>
+  </section>
+</SiteLayout>

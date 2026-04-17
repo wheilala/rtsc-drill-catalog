@@ -1,0 +1,85 @@
+---
+import DrillCard from "../../components/DrillCard.astro";
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import { getAllDrills, getAllTopics } from "../../lib/content.js";
+
+const drills = await getAllDrills();
+const topics = await getAllTopics();
+---
+
+<SiteLayout title="Drills | RTSC Drill Catalog" description="Browse published drills by topic and group size.">
+  <section class="page-header">
+    <p class="eyebrow">Drills</p>
+    <h1>Drill catalog</h1>
+    <p class="lede">Filter by training topic, group size, and whether a drill includes a video link.</p>
+  </section>
+
+  <section class="filter-panel">
+    <label>
+      Topic
+      <select id="topic-filter">
+        <option value="">All topics</option>
+        {topics.map((topic) => (
+          <option value={topic}>{topic}</option>
+        ))}
+      </select>
+    </label>
+
+    <label>
+      Group size
+      <input id="group-size-filter" type="number" min="1" inputmode="numeric" placeholder="Any" />
+    </label>
+
+    <label class="checkbox">
+      <input id="video-filter" type="checkbox" />
+      <span>Has video</span>
+    </label>
+  </section>
+
+  <section class="drill-grid" id="drill-grid">
+    {drills.length ? (
+      drills.map((drill) => <DrillCard drill={drill} />)
+    ) : (
+      <div class="empty-state">
+        <h2>No drills published yet</h2>
+        <p>Run the Notion sync after adding drill metadata, then rebuild the site.</p>
+      </div>
+    )}
+  </section>
+
+  <script is:inline>
+    const topicFilter = document.getElementById("topic-filter");
+    const groupSizeFilter = document.getElementById("group-size-filter");
+    const videoFilter = document.getElementById("video-filter");
+    const cards = [...document.querySelectorAll("[data-drill-card]")];
+
+    function matchesGroupSize(card, value) {
+      if (!value) return true;
+      const min = Number(card.dataset.min || 0);
+      const max = Number(card.dataset.max || 0);
+      if (!min && !max) return true;
+      if (min && value < min) return false;
+      if (max && value > max) return false;
+      return true;
+    }
+
+    function applyFilters() {
+      const topic = topicFilter.value;
+      const requestedGroupSize = Number(groupSizeFilter.value || 0);
+      const requiresVideo = videoFilter.checked;
+
+      for (const card of cards) {
+        const topics = JSON.parse(card.dataset.topics || "[]");
+        const hasVideo = card.dataset.hasVideo === "true";
+        const matchesTopic = !topic || topics.includes(topic);
+        const groupMatch = matchesGroupSize(card, requestedGroupSize);
+        const videoMatch = !requiresVideo || hasVideo;
+        card.hidden = !(matchesTopic && groupMatch && videoMatch);
+      }
+    }
+
+    topicFilter?.addEventListener("change", applyFilters);
+    groupSizeFilter?.addEventListener("input", applyFilters);
+    videoFilter?.addEventListener("change", applyFilters);
+  </script>
+</SiteLayout>

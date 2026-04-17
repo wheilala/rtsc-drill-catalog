@@ -1,0 +1,23 @@
+---
+const { video, title } = Astro.props;
+---
+
+{
+  video?.provider === "youtube" && video.embedUrl ? (
+    <div class="video-frame">
+      <iframe
+        src={video.embedUrl}
+        title={title || "Drill video"}
+        loading="lazy"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      />
+    </div>
+  ) : video?.sourceUrl ? (
+    <p>
+      <a class="button-link" href={video.sourceUrl} target="_blank" rel="noreferrer">
+        Open video link
+      </a>
+    </p>
+  ) : null
+}

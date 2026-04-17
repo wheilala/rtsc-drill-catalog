@@ -1,0 +1,80 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import VideoEmbed from "../../components/VideoEmbed.astro";
+import { getAllDrills, getDrillBySlug } from "../../lib/content.js";
+
+export async function getStaticPaths() {
+  const drills = await getAllDrills();
+  return drills.map((drill) => ({
+    params: {
+      slug: drill.slug
+    }
+  }));
+}
+
+const drill = await getDrillBySlug(Astro.params.slug);
+const groupSizeLabel =
+  drill.groupSize?.min || drill.groupSize?.max
+    ? `${drill.groupSize?.min ?? "?"}-${drill.groupSize?.max ?? "?"} players`
+    : "Flexible group size";
+---
+
+<SiteLayout title={`${drill.title} | RTSC Drill Catalog`} description={drill.summary}>
+  <article class="detail-shell">
+    <p class="eyebrow">Drill</p>
+    <h1>{drill.title}</h1>
+    {drill.summary ? <p class="lede">{drill.summary}</p> : null}
+
+    {drill.diagram?.localPath ? (
+      <img class="detail-hero" src={drill.diagram.localPath} alt={drill.diagram.alt || ""} />
+    ) : null}
+
+    <section class="meta-row">
+      <div>
+        <span class="meta-label">Topics</span>
+        <div class="pill-row">
+          {(drill.topics || []).map((topic) => (
+            <span class="pill">{topic}</span>
+          ))}
+        </div>
+      </div>
+      <div>
+        <span class="meta-label">Group size</span>
+        <strong>{groupSizeLabel}</strong>
+      </div>
+      <div>
+        <span class="meta-label">Pitch size</span>
+        <strong>{drill.pitchSize || "Flexible"}</strong>
+      </div>
+    </section>
+
+    <section class="detail-section">
+      <h2>Setup</h2>
+      <div set:html={drill.setupHtml || "<p>No setup notes yet.</p>"} />
+    </section>
+
+    <section class="detail-section">
+      <h2>Instructions</h2>
+      <div set:html={drill.instructionsHtml || "<p>No instructions yet.</p>"} />
+    </section>
+
+    <section class="detail-section">
+      <h2>Progressions</h2>
+      <div set:html={drill.progressionsHtml || "<p>No progressions added yet.</p>"} />
+    </section>
+
+    <section class="detail-section">
+      <h2>Coaching Emphasis</h2>
+      <div set:html={drill.emphasisHtml || "<p>No coaching emphasis added yet.</p>"} />
+    </section>
+
+    <section class="detail-section">
+      <h2>Video</h2>
+      {drill.videos?.length ? (
+        drill.videos.map((video) => <VideoEmbed video={video} title={`${drill.title} video`} />)
+      ) : (
+        <p>No linked video for this drill yet.</p>
+      )}
+    </section>
+  </article>
+</SiteLayout>

@@ -1,0 +1,38 @@
+---
+const { drill } = Astro.props;
+
+const groupSizeLabel =
+  drill.groupSize?.min || drill.groupSize?.max
+    ? `${drill.groupSize?.min ?? "?"}-${drill.groupSize?.max ?? "?"} players`
+    : "Group size flexible";
+---
+
+<article
+  class="drill-card"
+  data-drill-card
+  data-topics={JSON.stringify(drill.topics || [])}
+  data-min={drill.groupSize?.min ?? ""}
+  data-max={drill.groupSize?.max ?? ""}
+  data-has-video={drill.videos?.length ? "true" : "false"}
+>
+  <a class="drill-card-link" href={`${Astro.base || ""}/drills/${drill.slug}`}>
+    {drill.diagram?.localPath ? (
+      <img class="drill-card-image" src={drill.diagram.localPath} alt={drill.diagram.alt || ""} />
+    ) : (
+      <div class="drill-card-image placeholder">No diagram yet</div>
+    )}
+    <div class="drill-card-body">
+      <div class="drill-card-topics">
+        {(drill.topics || []).map((topic) => (
+          <span class="pill">{topic}</span>
+        ))}
+      </div>
+      <h3>{drill.title}</h3>
+      <p>{drill.summary || "No summary added yet."}</p>
+      <div class="drill-card-meta">
+        <span>{groupSizeLabel}</span>
+        {drill.pitchSize ? <span>{drill.pitchSize}</span> : null}
+      </div>
+    </div>
+  </a>
+</article>

@@ -1,0 +1,25 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import { getAllSessionPlans, getSessionPlanBySlug } from "../../lib/content.js";
+
+export async function getStaticPaths() {
+  const sessionPlans = await getAllSessionPlans();
+  return sessionPlans.map((plan) => ({
+    params: {
+      slug: plan.slug
+    }
+  }));
+}
+
+const sessionPlan = await getSessionPlanBySlug(Astro.params.slug);
+---
+
+<SiteLayout title={`${sessionPlan.title} | RTSC Drill Catalog`} description={sessionPlan.summary}>
+  <article class="detail-shell">
+    <p class="eyebrow">Session plan</p>
+    <h1>{sessionPlan.title}</h1>
+    {sessionPlan.summary ? <p class="lede">{sessionPlan.summary}</p> : null}
+    {sessionPlan.heroImage ? <img class="detail-hero" src={sessionPlan.heroImage} alt="" /> : null}
+    <section class="detail-section prose" set:html={sessionPlan.html} />
+  </article>
+</SiteLayout>
