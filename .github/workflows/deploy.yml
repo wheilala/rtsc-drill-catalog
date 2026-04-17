@@ -20,8 +20,8 @@ jobs:
     env:
       NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
       NOTION_DRILL_DATA_SOURCE_ID: ${{ secrets.NOTION_DRILL_DATA_SOURCE_ID }}
-      SITE_URL: ${{ secrets.SITE_URL }}
-      PUBLIC_BASE_PATH: ${{ secrets.PUBLIC_BASE_PATH }}
+      SITE_URL: ${{ vars.SITE_URL }}
+      PUBLIC_BASE_PATH: ${{ vars.PUBLIC_BASE_PATH }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
