@@ -18,10 +18,10 @@
     "max": 12
   },
   "pitchSize": "15-30 yd square",
-  "setupHtml": "Belgum Box (one large cone square with a smaller square of cones inside); One player on each cone (and any extras line up behind an outside corner where ball will be started).  Start with either one ball on an outside corner or two balls on opposite corners.",
-  "instructionsHtml": "1. Pass to far inside corner in a designated direction (and follow your pass with an exploding run)",
-  "progressionsHtml": "a) one-ball to two balls (as they get familiar)\nb) Shrink box size for tougher flow, or expand size for bigger passes",
-  "emphasisHtml": "Talk! Communicate the words.  Explode to follow your pass.  Try to complete the move with a two touch.  ESTABLISH FLOW.  If things go sideways, come back and get reset (i.e. don’t pass if you’re 15 yards off your cone!).",
+  "setupHtml": "<p>Belgum Box (one large cone square with a smaller square of cones inside); One player on each cone (and any extras line up behind an outside corner where ball will be started).  Start with either one ball on an outside corner or two balls on opposite corners.</p>",
+  "instructionsHtml": "<ol><li>Pass to far inside corner in a designated direction (and follow your pass with an exploding run)</li></ol>",
+  "progressionsHtml": "<ol><li>one-ball to two balls (as they get familiar)</li><li>Shrink box size for tougher flow, or expand size for bigger passes</li></ol>",
+  "emphasisHtml": "<p>Talk! Communicate the words.  Explode to follow your pass.  Try to complete the move with a two touch.  ESTABLISH FLOW.  If things go sideways, come back and get reset (i.e. don’t pass if you’re 15 yards off your cone!).</p>",
   "diagram": {
     "localPath": "/media/drills/belgium-box-passing-pattern/diagram-1.png",
     "alt": "Belgium Box Passing Pattern diagram"
@@ -35,6 +35,6 @@
   ],
   "source": {
     "notionPageUrl": "https://www.notion.so/Belgium-Box-Passing-Pattern-1bdc678bbc53809daa91df01aa5a635e",
-    "lastSyncedAt": "2026-04-17T04:04:49.543Z"
+    "lastSyncedAt": "2026-04-17T04:28:16.409Z"
   }
 }

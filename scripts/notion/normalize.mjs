@@ -32,7 +32,9 @@ export function sanitizeRichHtml(value) {
   if (!raw) {
     return "";
   }
-  return sanitizeHtml(raw, sanitizeOptions);
+  const repaired = repairMojibake(raw);
+  const normalized = normalizeStructuredText(repaired);
+  return sanitizeHtml(normalized, sanitizeOptions);
 }
 
 export function htmlToPlainText(value) {
@@ -177,4 +179,99 @@ export function parseVideoLink(urlValue) {
       sourceUrl
     }
   ];
+}
+
+function repairMojibake(value) {
+  return String(value || "")
+    .replaceAll("Â ", " ")
+    .replaceAll("Â", "")
+    .replaceAll("â€™", "'")
+    .replaceAll("â€œ", '"')
+    .replaceAll("â€", '"')
+    .replaceAll("â€“", "-")
+    .replaceAll("â€”", "-");
+}
+
+function normalizeStructuredText(value) {
+  const text = String(value || "")
+    .replace(/<br\s*\/?>/gi, "\n")
+    .replace(/\r\n/g, "\n")
+    .trim();
+
+  if (!text) {
+    return "";
+  }
+
+  const lines = text
+    .split("\n")
+    .map((line) => line.trim())
+    .filter((line) => line.length > 0);
+
+  const chunks = [];
+  let paragraphBuffer = [];
+  let currentList = null;
+
+  function flushParagraph() {
+    if (!paragraphBuffer.length) {
+      return;
+    }
+    chunks.push(`<p>${paragraphBuffer.join(" ")}</p>`);
+    paragraphBuffer = [];
+  }
+
+  function flushList() {
+    if (!currentList || !currentList.items.length) {
+      currentList = null;
+      return;
+    }
+    const tag = currentList.type === "ol" ? "ol" : "ul";
+    const items = currentList.items.map((item) => `<li>${item}</li>`).join("");
+    chunks.push(`<${tag}>${items}</${tag}>`);
+    currentList = null;
+  }
+
+  for (const line of lines) {
+    const orderedMatch = line.match(/^((?:\d+|[A-Za-z]))[\)\.]\s*(.+)$/);
+    const unorderedMatch = line.match(/^[-*]\s+(.+)$/);
+
+    if (orderedMatch) {
+      flushParagraph();
+      const content = orderedMatch[2].trim();
+      if (!currentList || currentList.type !== "ol") {
+        flushList();
+        currentList = { type: "ol", items: [] };
+      }
+      currentList.items.push(content);
+      continue;
+    }
+
+    if (unorderedMatch) {
+      flushParagraph();
+      const content = unorderedMatch[1].trim();
+      if (!currentList || currentList.type !== "ul") {
+        flushList();
+        currentList = { type: "ul", items: [] };
+      }
+      currentList.items.push(content);
+      continue;
+    }
+
+    if (currentList && shouldAppendToLastListItem(line)) {
+      const lastIndex = currentList.items.length - 1;
+      currentList.items[lastIndex] = `${currentList.items[lastIndex]} ${line}`.trim();
+      continue;
+    }
+
+    flushList();
+    paragraphBuffer.push(line);
+  }
+
+  flushList();
+  flushParagraph();
+
+  return chunks.join("\n");
+}
+
+function shouldAppendToLastListItem(line) {
+  return Boolean(line) && !/^([A-Za-z]|\d+)[\)\.]\s+/.test(line) && !/^[-*]\s+/.test(line);
 }

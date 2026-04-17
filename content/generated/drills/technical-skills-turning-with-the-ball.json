@@ -5,7 +5,7 @@
   "publish": true,
   "featured": false,
   "sortOrder": 0,
-  "summary": "Perform 30-60 second sets of the various moves, training both feet/directions: 1) Inside Turn (quick turn using inside of foot to change ball direction quickly, using body to shie…",
+  "summary": "Perform 30-60 second sets of the various moves, training both feet/directions: Inside Turn (quick turn using inside of foot to change ball direction quickly, using body to shield…",
   "topics": [
     "Dribbling",
     "Ball Mastery",
@@ -17,10 +17,10 @@
     "max": null
   },
   "pitchSize": "10 by 10 yds",
-  "setupHtml": "10 square yards and a ball",
-  "instructionsHtml": "Perform 30-60 second sets of the various moves, training both feet/directions:\n1) Inside Turn (quick turn using inside of foot to change ball direction quickly, using body to shield from defender)\n2) Outside Turn (similar, but use outside of your foot)\n3) Cruyff turn (inside of foot, hook ball behind standing leg) - Cruyff is one movement/cut, not two\n4) L-Turn (similar to Cruyff but it’s two movements to drag back then hook behind leg)\n5) V-Turn (similar to V-turn, but open up body to drag ball and change direction)\n6) Reverse Croqueta (push ball using inside of feet—second movement pushes ball behind standing leg to change directions)\n7) Stepover turn - stepover then outside turn with other foot\n8) Reverse stepover turn - stepover foot goes outside to inside, then use same foot for outside turn\n9) Roll stepover turn - more complex, roll w/inside foot, outside-in stepover w/opposite foot then push back w/foot you did the rool\n10) Roll chop turn - sole roll with one foot (to other foot), then basically cruyff chop behind standing leg",
-  "progressionsHtml": "See instructions for 10 moves to work and master.  Start with the first five and only move onto the next once you feel you’ve ‘mastered’ the first five.",
-  "emphasisHtml": "Comfort and confidence turning with the ball.  You need to get comfortable with the technical footwork, selling the feint (e.g. don’t mail in the stepover), and then the speed in which you do the move.   \n\nImportant: These aren’t just toe touches in one location.  Performing these moves stationary is NOT going to separate you from a defender. You must explode and change your speed and direction and actually turn and change your location.   As you grow more confident in technical execution, work on increasing your explosion and speed of movement.\n\n Repeating these exercises in a 10-15 minute solo workout will do wonders to your comfort and execution when in possessions.",
+  "setupHtml": "<p>10 square yards and a ball</p>",
+  "instructionsHtml": "<p>Perform 30-60 second sets of the various moves, training both feet/directions:</p>\n<ol><li>Inside Turn (quick turn using inside of foot to change ball direction quickly, using body to shield from defender)</li><li>Outside Turn (similar, but use outside of your foot)</li><li>Cruyff turn (inside of foot, hook ball behind standing leg) - Cruyff is one movement/cut, not two</li><li>L-Turn (similar to Cruyff but it’s two movements to drag back then hook behind leg)</li><li>V-Turn (similar to V-turn, but open up body to drag ball and change direction)</li><li>Reverse Croqueta (push ball using inside of feet—second movement pushes ball behind standing leg to change directions)</li><li>Stepover turn - stepover then outside turn with other foot</li><li>Reverse stepover turn - stepover foot goes outside to inside, then use same foot for outside turn</li><li>Roll stepover turn - more complex, roll w/inside foot, outside-in stepover w/opposite foot then push back w/foot you did the rool</li><li>Roll chop turn - sole roll with one foot (to other foot), then basically cruyff chop behind standing leg</li></ol>",
+  "progressionsHtml": "<p>See instructions for 10 moves to work and master.  Start with the first five and only move onto the next once you feel you’ve ‘mastered’ the first five.</p>",
+  "emphasisHtml": "<p>Comfort and confidence turning with the ball.  You need to get comfortable with the technical footwork, selling the feint (e.g. don’t mail in the stepover), and then the speed in which you do the move. Important: These aren’t just toe touches in one location.  Performing these moves stationary is NOT going to separate you from a defender. You must explode and change your speed and direction and actually turn and change your location.   As you grow more confident in technical execution, work on increasing your explosion and speed of movement. Repeating these exercises in a 10-15 minute solo workout will do wonders to your comfort and execution when in possessions.</p>",
   "diagram": {
     "localPath": "/media/drills/technical-skills-turning-with-the-ball/diagram-1.png",
     "alt": "Technical Skills: Turning with the Ball diagram"
@@ -34,6 +34,6 @@
   ],
   "source": {
     "notionPageUrl": "https://www.notion.so/Technical-Skills-Turning-with-the-Ball-1c8c678bbc5380839564e257bf6a865b",
-    "lastSyncedAt": "2026-04-17T04:04:52.386Z"
+    "lastSyncedAt": "2026-04-17T04:28:18.818Z"
   }
 }

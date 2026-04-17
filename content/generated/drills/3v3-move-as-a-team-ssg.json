@@ -15,10 +15,10 @@
     "max": 12
   },
   "pitchSize": "25 by 30 yd rectangle",
-  "setupHtml": "Four small goals in each corner of rectangle.  Divide pitch horizontally in half.  Divide group in half to form two teams, and groups of three will perform reps together.",
-  "instructionsHtml": "1. Coach passes to one team from center to start play.\n2. 3v3 SSG towards the four goals, but goals only count if the whole team is in attacking half.\n3. Allow for a few turnovers.  Either coach can restart OOB or they can do simple kick-in restarts.\n4. Rotate add’l players at end of play or after a set (e.g. 45 sec) time period.",
+  "setupHtml": "<p>Four small goals in each corner of rectangle.  Divide pitch horizontally in half.  Divide group in half to form two teams, and groups of three will perform reps together.</p>",
+  "instructionsHtml": "<ol><li>Coach passes to one team from center to start play.</li><li>3v3 SSG towards the four goals, but goals only count if the whole team is in attacking half.</li><li>Allow for a few turnovers.  Either coach can restart OOB or they can do simple kick-in restarts.</li><li>Rotate add’l players at end of play or after a set (e.g. 45 sec) time period.</li></ol>",
   "progressionsHtml": "",
-  "emphasisHtml": "Advance as a unit.  Be aware of your shape before you try to score.  Transition quickly and be ready to recover!",
+  "emphasisHtml": "<p>Advance as a unit.  Be aware of your shape before you try to score.  Transition quickly and be ready to recover!</p>",
   "diagram": {
     "localPath": "/media/drills/3v3-move-as-a-team-ssg/diagram-1.png",
     "alt": "3v3 Move as a Team SSG diagram"
@@ -32,6 +32,6 @@
   ],
   "source": {
     "notionPageUrl": "https://www.notion.so/3v3-Move-as-a-Team-SSG-1bdc678bbc53808abadadfb1f32f6588",
-    "lastSyncedAt": "2026-04-17T04:04:49.309Z"
+    "lastSyncedAt": "2026-04-17T04:28:16.198Z"
   }
 }

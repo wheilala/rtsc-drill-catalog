@@ -17,10 +17,10 @@
     "max": 12
   },
   "pitchSize": "~20 by 30 yds",
-  "setupHtml": "Set up rectangle w/two goals wide on each long side.  Set up two goals w “red” cones, and two with “blue” cones (one color per side).\nThree teams of three (or four), where one team serves as neutrals on the edges (see diagram).\nSet up coach on one short side w/multiple balls to restart play.",
-  "instructionsHtml": "1) Coach feeds in a ball and team tries to keep possession (using neutrals outside for a 6v3), UNTIL coach holds up a cone of one of the colors into the air.  \n2) When coach holds up one cone color, possessing team can finish on that color goal once activated.\n3) If ball goes OOB, coach restarts w/new ball.  If possession changes, continue play",
-  "progressionsHtml": "Can extend field size and go 4v4+4 as needed",
-  "emphasisHtml": "Be alert! Scan for (a) goal activation, (b) goal locations, and (c) opponent locations to score quickly when activated.",
+  "setupHtml": "<p>Set up rectangle w/two goals wide on each long side.  Set up two goals w “red” cones, and two with “blue” cones (one color per side). Three teams of three (or four), where one team serves as neutrals on the edges (see diagram). Set up coach on one short side w/multiple balls to restart play.</p>",
+  "instructionsHtml": "<ol><li>Coach feeds in a ball and team tries to keep possession (using neutrals outside for a 6v3), UNTIL coach holds up a cone of one of the colors into the air.</li><li>When coach holds up one cone color, possessing team can finish on that color goal once activated.</li><li>If ball goes OOB, coach restarts w/new ball.  If possession changes, continue play</li></ol>",
+  "progressionsHtml": "<p>Can extend field size and go 4v4+4 as needed</p>",
+  "emphasisHtml": "<p>Be alert! Scan for (a) goal activation, (b) goal locations, and (c) opponent locations to score quickly when activated.</p>",
   "diagram": {
     "localPath": "/media/drills/3v33-ssg-four-goal-with-scanning/diagram-1.png",
     "alt": "3v3+3 SSG four-goal with scanning diagram"
@@ -34,6 +34,6 @@
   ],
   "source": {
     "notionPageUrl": "https://www.notion.so/3v3-3-SSG-four-goal-with-scanning-1c8c678bbc538018b6c2f9463651df33",
-    "lastSyncedAt": "2026-04-17T04:04:49.877Z"
+    "lastSyncedAt": "2026-04-17T04:28:16.787Z"
   }
 }

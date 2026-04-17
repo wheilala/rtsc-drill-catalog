@@ -15,10 +15,10 @@
     "max": 16
   },
   "pitchSize": "25 by 25 yd area (poles/mannequins better than cones for this one)",
-  "setupHtml": "4 pole diamond (12-15 yds apart); Divide players evenly in lines behind each pole, 5  yds away from the pole",
-  "instructionsHtml": "1. Pass to next teammate and follow pass (back of line on next pole)\n2. Add # of balls and technical moves when receiving through progressions",
-  "progressionsHtml": "1) increase number of balls (up to three)\n2) techniques to change direction:\n    2a) first touch back towards passer, then drag-back V turn\n    2b) first touch towards passer, drag back, then 2 Cruyff turns",
-  "emphasisHtml": "Create receiving space - Check into the defender than check out to receive\nBody Shape and back foot receiving\nTechnical skills to change direction",
+  "setupHtml": "<p>4 pole diamond (12-15 yds apart); Divide players evenly in lines behind each pole, 5  yds away from the pole</p>",
+  "instructionsHtml": "<ol><li>Pass to next teammate and follow pass (back of line on next pole)</li><li>Add # of balls and technical moves when receiving through progressions</li></ol>",
+  "progressionsHtml": "<ol><li>increase number of balls (up to three)</li><li>techniques to change direction: 2a) first touch back towards passer, then drag-back V turn 2b) first touch towards passer, drag back, then 2 Cruyff turns</li></ol>",
+  "emphasisHtml": "<p>Create receiving space - Check into the defender than check out to receive Body Shape and back foot receiving Technical skills to change direction</p>",
   "diagram": null,
   "videos": [
     {
@@ -29,6 +29,6 @@
   ],
   "source": {
     "notionPageUrl": "https://www.notion.so/Diamond-Passing-Pattern-Drills-w-technical-footwork-1c8c678bbc5380b6bd65f80925774cd4",
-    "lastSyncedAt": "2026-04-17T04:04:53.458Z"
+    "lastSyncedAt": "2026-04-17T04:28:19.671Z"
   }
 }

@@ -15,10 +15,10 @@
     "max": 16
   },
   "pitchSize": "15 by 15 yards (and 8 by 8)",
-  "setupHtml": "Setup: Put two kids on each side of the square, each with a ball. Start in the smaller square.",
-  "instructionsHtml": "On “go”, each player is trying to dribble across the square (entirely), turn quickly, and cross the box six times. Turn quickly, honor system on counts. First player to complete six trips across the square wins (sit down when “done”).",
-  "progressionsHtml": "• Practice Round: 8 by 8 square\n• Rounds 1-2: 8x8 square\n• Round 3: 15x15 square\n• Round 4: 8x8 square\n• Rounds 5-6: 15x15 square",
-  "emphasisHtml": "Dribbling within chaos with incentive to go fast. The two different sized boxes show the importance of keeping the ball close vs. having space to open up those touches.\n\n\n• How can you keep control of the ball in the tight chaos?\n• How can you speed up your pace with more open space?\n• How tight can you make your turn?",
+  "setupHtml": "<p>Setup: Put two kids on each side of the square, each with a ball. Start in the smaller square.</p>",
+  "instructionsHtml": "<p>On “go”, each player is trying to dribble across the square (entirely), turn quickly, and cross the box six times. Turn quickly, honor system on counts. First player to complete six trips across the square wins (sit down when “done”).</p>",
+  "progressionsHtml": "<p>• Practice Round: 8 by 8 square • Rounds 1-2: 8x8 square • Round 3: 15x15 square • Round 4: 8x8 square • Rounds 5-6: 15x15 square</p>",
+  "emphasisHtml": "<p>Dribbling within chaos with incentive to go fast. The two different sized boxes show the importance of keeping the ball close vs. having space to open up those touches. • How can you keep control of the ball in the tight chaos? • How can you speed up your pace with more open space? • How tight can you make your turn?</p>",
   "diagram": {
     "localPath": "/media/drills/dribbling-through-the-square-race/diagram-1.png",
     "alt": "Dribbling through the square race diagram"
@@ -26,6 +26,6 @@
   "videos": [],
   "source": {
     "notionPageUrl": "https://www.notion.so/Dribbling-through-the-square-race-1c8c678bbc5380928125c33bf923832a",
-    "lastSyncedAt": "2026-04-17T04:04:52.844Z"
+    "lastSyncedAt": "2026-04-17T04:28:19.168Z"
   }
 }

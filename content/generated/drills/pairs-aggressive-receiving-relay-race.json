@@ -16,10 +16,10 @@
     "max": 20
   },
   "pitchSize": "25 x 30 yds (or more)",
-  "setupHtml": "Set up pairs with cones 15 yds apart for each pair (straight line), spaced ~6-8 yards apart. One ball per pair, players facing each other, behind cones.",
-  "instructionsHtml": "Object is to complete 8 reps of the pass then dribble pattern (honor system, shout “done” when complete).\n\nOn “go”:\n1.player (A) with ball passes to teammate (B) and then runs across to the other cone.\n2.Once pass is made, run to meet the ball, control w/positive touch and (3) dribble across to other cone, turning around it\nB then sends the ball to A (repeating pattern).\n\nWinner: First pair to 8 (10?) completed reps  and sits down",
-  "progressionsHtml": "I tend to use long passes by keeping partners far apart, but same idea (w/more finesse touches) can be done on shorter distances.",
-  "emphasisHtml": "Positive first touch, pace of play, and clean passing;",
+  "setupHtml": "<p>Set up pairs with cones 15 yds apart for each pair (straight line), spaced ~6-8 yards apart. One ball per pair, players facing each other, behind cones.</p>",
+  "instructionsHtml": "<p>Object is to complete 8 reps of the pass then dribble pattern (honor system, shout “done” when complete). On “go”:</p>\n<ol><li>player (A) with ball passes to teammate (B) and then runs across to the other cone.</li><li>Once pass is made, run to meet the ball, control w/positive touch and (3) dribble across to other cone, turning around it B then sends the ball to A (repeating pattern). Winner: First pair to 8 (10?) completed reps  and sits down</li></ol>",
+  "progressionsHtml": "<p>I tend to use long passes by keeping partners far apart, but same idea (w/more finesse touches) can be done on shorter distances.</p>",
+  "emphasisHtml": "<p>Positive first touch, pace of play, and clean passing;</p>",
   "diagram": {
     "localPath": "/media/drills/pairs-aggressive-receiving-relay-race/diagram-1.png",
     "alt": "Pairs Aggressive Receiving Relay Race diagram"
@@ -33,6 +33,6 @@
   ],
   "source": {
     "notionPageUrl": "https://www.notion.so/Pairs-Aggressive-Receiving-Relay-Race-1c8c678bbc5380f79bf0d5f50be13b9f",
-    "lastSyncedAt": "2026-04-17T04:04:54.459Z"
+    "lastSyncedAt": "2026-04-17T04:28:20.400Z"
   }
 }

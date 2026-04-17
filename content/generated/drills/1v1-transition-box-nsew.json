@@ -17,10 +17,10 @@
     "max": 10
   },
   "pitchSize": "15 by 15 yard square, with four cone starting gates;",
-  "setupHtml": "one team N/S, other team E/W.  split two teams equally on either side of their axis.  Start one defender in the middle to begin drill.  Spare balls at all four gates (next player up needs to be ready)",
-  "instructionsHtml": "Objective is to complete a pass across to teammate, with defender on you (1 pt per success)\nIf team completes the pass, defender stays in the middle until he steals or disrupts play.\nIf attacker fails to score (stolen, OOB), they immediately become defender against next attacker from other team.",
-  "progressionsHtml": "Once they get the format, introduce games to 10 (or 4 minute scored rounds)",
-  "emphasisHtml": "Need to apply quick change of pace to separate from defender and open passing lane to target\nUse feints and stop/start to disrupt defender balance\nIf defender is square, exploit this (nutmeg or attacking past them); defenders stay side on and maintain distance to prevent the pass.\nTransition quickly - be alert",
+  "setupHtml": "<p>one team N/S, other team E/W.  split two teams equally on either side of their axis.  Start one defender in the middle to begin drill.  Spare balls at all four gates (next player up needs to be ready)</p>",
+  "instructionsHtml": "<p>Objective is to complete a pass across to teammate, with defender on you (1 pt per success) If team completes the pass, defender stays in the middle until he steals or disrupts play. If attacker fails to score (stolen, OOB), they immediately become defender against next attacker from other team.</p>",
+  "progressionsHtml": "<p>Once they get the format, introduce games to 10 (or 4 minute scored rounds)</p>",
+  "emphasisHtml": "<p>Need to apply quick change of pace to separate from defender and open passing lane to target Use feints and stop/start to disrupt defender balance If defender is square, exploit this (nutmeg or attacking past them); defenders stay side on and maintain distance to prevent the pass. Transition quickly - be alert</p>",
   "diagram": {
     "localPath": "/media/drills/1v1-transition-box-nsew/diagram-1.png",
     "alt": "1v1 Transition Box (NSEW) diagram"
@@ -34,6 +34,6 @@
   ],
   "source": {
     "notionPageUrl": "https://www.notion.so/1v1-Transition-Box-NSEW-1c8c678bbc5380fdb0f2e10459821b9c",
-    "lastSyncedAt": "2026-04-17T04:04:54.935Z"
+    "lastSyncedAt": "2026-04-17T04:28:20.800Z"
   }
 }

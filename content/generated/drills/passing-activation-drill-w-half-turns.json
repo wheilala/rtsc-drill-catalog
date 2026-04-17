@@ -17,10 +17,10 @@
     "max": 10
   },
   "pitchSize": "15 by 10 rectangle",
-  "setupHtml": "Groups of 6 split on two end cones 16 yds apart, with two cones/poles in the center spaced 6 yds apart. (A tighter passing area);  One ball w/spares nearby;  (Try doing with groups of four?)",
-  "instructionsHtml": "1. One player at end cone starts with ball; Player on opposite side runs between central cones\n2. Crisp pass to center player\n3. Central player one-times it back and then quickly moves to outside of the cone to his left (right); Check your shoulder as you move laterally!;\n4. Outside player makes a one-time pass to the inside (outside) foot outside the left (right) cone\n5. Central player completes the half turn based on arrival of the ball and passes on second touch to the other end\n6. Player in the middle goes to back of line where ball started; player who started the rep goes to center",
-  "progressionsHtml": "1. pass to inside foot; inside half turn on the left (3 mins)\n2. pass to inside foot; inside half turn on the right (3 mins)\n3. pass to outside foot; outside half turn on the left (shielding from defender cones)  (3 mins)\n4. pass to outside foot; outside half turn on the right (shielding from defender cones)  (3 mins)",
-  "emphasisHtml": "• Check your shoulder as you move outside the central cones\n• Execute the half turn as quickly as you possibly can\n• Put the pass onto the correct foot of your teammate",
+  "setupHtml": "<p>Groups of 6 split on two end cones 16 yds apart, with two cones/poles in the center spaced 6 yds apart. (A tighter passing area);  One ball w/spares nearby;  (Try doing with groups of four?)</p>",
+  "instructionsHtml": "<ol><li>One player at end cone starts with ball; Player on opposite side runs between central cones</li><li>Crisp pass to center player</li><li>Central player one-times it back and then quickly moves to outside of the cone to his left (right); Check your shoulder as you move laterally!;</li><li>Outside player makes a one-time pass to the inside (outside) foot outside the left (right) cone</li><li>Central player completes the half turn based on arrival of the ball and passes on second touch to the other end</li><li>Player in the middle goes to back of line where ball started; player who started the rep goes to center</li></ol>",
+  "progressionsHtml": "<ol><li>pass to inside foot; inside half turn on the left (3 mins)</li><li>pass to inside foot; inside half turn on the right (3 mins)</li><li>pass to outside foot; outside half turn on the left (shielding from defender cones)  (3 mins)</li><li>pass to outside foot; outside half turn on the right (shielding from defender cones)  (3 mins)</li></ol>",
+  "emphasisHtml": "<p>• Check your shoulder as you move outside the central cones • Execute the half turn as quickly as you possibly can • Put the pass onto the correct foot of your teammate</p>",
   "diagram": {
     "localPath": "/media/drills/passing-activation-drill-w-half-turns/diagram-1.png",
     "alt": "Passing Activation Drill w half turns diagram"
@@ -33,6 +33,6 @@
   ],
   "source": {
     "notionPageUrl": "https://www.notion.so/Passing-Activation-Drill-w-half-turns-1c8c678bbc5380cb9a0efbcb4a40b56c",
-    "lastSyncedAt": "2026-04-17T04:04:53.722Z"
+    "lastSyncedAt": "2026-04-17T04:28:19.904Z"
   }
 }

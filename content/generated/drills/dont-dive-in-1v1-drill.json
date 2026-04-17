@@ -17,10 +17,10 @@
     "max": 8
   },
   "pitchSize": "15 by 20 yards",
-  "setupHtml": "Set up rectangle with two goals as shown in diagram, and lines of cones to (1) denote halfway across and (2) to split defender from attacker.\n\nPlayers form two sets of two lines (only one set if smaller group), one a defense line (w balls) and the other a defending line.",
-  "instructionsHtml": "Objective is for dribbler score in one of the two goals.  Defenders cannot cross the line of cones, and instead should focus on cutting off the shot angle, forcing dribbler to move or change targets.\n\n1) Dribbler must go out and reach the halfway point.  After this, try to shake the defender to get a finishing shot (5-10 yds away)\n2) Defender must stay on his side of the dividing line.  Prevent the dribbler from scoring!",
+  "setupHtml": "<p>Set up rectangle with two goals as shown in diagram, and lines of cones to (1) denote halfway across and (2) to split defender from attacker. Players form two sets of two lines (only one set if smaller group), one a defense line (w balls) and the other a defending line.</p>",
+  "instructionsHtml": "<p>Objective is for dribbler score in one of the two goals.  Defenders cannot cross the line of cones, and instead should focus on cutting off the shot angle, forcing dribbler to move or change targets.</p>\n<ol><li>Dribbler must go out and reach the halfway point.  After this, try to shake the defender to get a finishing shot (5-10 yds away)</li><li>Defender must stay on his side of the dividing line.  Prevent the dribbler from scoring!</li></ol>",
   "progressionsHtml": "",
-  "emphasisHtml": "Defenders: stay close to the dribbler and recognize their shooting options. React quickly to change of directions (but don’t stab/dive in) to disrupt, just be in the way (i.e. contain/delay).  Don’t jump or turn your back on shots, either.\n\nDribblers: Quick changes of direction and pace, feint moves (incl shot fakes!)",
+  "emphasisHtml": "<p>Defenders: stay close to the dribbler and recognize their shooting options. React quickly to change of directions (but don’t stab/dive in) to disrupt, just be in the way (i.e. contain/delay).  Don’t jump or turn your back on shots, either. Dribblers: Quick changes of direction and pace, feint moves (incl shot fakes!)</p>",
   "diagram": {
     "localPath": "/media/drills/dont-dive-in-1v1-drill/diagram-1.png",
     "alt": "Don’t Dive In 1v1 Drill diagram"
@@ -34,6 +34,6 @@
   ],
   "source": {
     "notionPageUrl": "https://www.notion.so/Don-t-Dive-In-1v1-Drill-1c8c678bbc538047af85d387ae95b080",
-    "lastSyncedAt": "2026-04-17T04:04:50.755Z"
+    "lastSyncedAt": "2026-04-17T04:28:17.487Z"
   }
 }

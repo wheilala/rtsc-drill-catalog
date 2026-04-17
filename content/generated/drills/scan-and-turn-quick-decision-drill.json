@@ -16,10 +16,10 @@
     "max": 4
   },
   "pitchSize": "10 by 20 yds",
-  "setupHtml": "Groups of four (two of each color) on cones set up as shown in diagram (basically in a Y pattern).  Make sure the inside player is not waiting for the ball but running to meet the pass.",
-  "instructionsHtml": "1.player A with ball passes in to teammate (B) and quickly calls one of the two colors (blue or green, assuming those are pinnie colors)\n2.Player B runs to meet the pass, checking shoulder before ball arrives\n3.Player B quickly turns and sends the ball to the correct target based on color called.\n4.Return the ball up to A quickly to repeat\nRotate players every 1 min (A-&gt;B, B-&gt;C, C-&gt;D, D-&gt;A)",
-  "progressionsHtml": "1) Pass to opposite color\n2) Color targets quietly change sides to re-inforce shoulder check\n3) Can add a third cue of “man on” (return pass)",
-  "emphasisHtml": "Check your shoulder. Scanning, quick decision making.\n\nAlso, run towards your pass  (don’t just stand waiting for ball, don’t enter the space too soon).",
+  "setupHtml": "<p>Groups of four (two of each color) on cones set up as shown in diagram (basically in a Y pattern).  Make sure the inside player is not waiting for the ball but running to meet the pass.</p>",
+  "instructionsHtml": "<ol><li>player A with ball passes in to teammate (B) and quickly calls one of the two colors (blue or green, assuming those are pinnie colors)</li><li>Player B runs to meet the pass, checking shoulder before ball arrives</li><li>Player B quickly turns and sends the ball to the correct target based on color called.</li><li>Return the ball up to A quickly to repeat Rotate players every 1 min (A-&gt;B, B-&gt;C, C-&gt;D, D-&gt;A)</li></ol>",
+  "progressionsHtml": "<ol><li>Pass to opposite color</li><li>Color targets quietly change sides to re-inforce shoulder check</li><li>Can add a third cue of “man on” (return pass)</li></ol>",
+  "emphasisHtml": "<p>Check your shoulder. Scanning, quick decision making. Also, run towards your pass  (don’t just stand waiting for ball, don’t enter the space too soon).</p>",
   "diagram": {
     "localPath": "/media/drills/scan-and-turn-quick-decision-drill/diagram-1.png",
     "alt": "Scan and Turn - Quick Decision Drill diagram"
@@ -33,6 +33,6 @@
   ],
   "source": {
     "notionPageUrl": "https://www.notion.so/Scan-and-Turn-Quick-Decision-Drill-1c8c678bbc5380edabcaf16f1f261a5b",
-    "lastSyncedAt": "2026-04-17T04:04:54.305Z"
+    "lastSyncedAt": "2026-04-17T04:28:20.256Z"
   }
 }

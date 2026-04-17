@@ -17,10 +17,10 @@
     "max": 7
   },
   "pitchSize": "25 by 40 yds (min)",
-  "setupHtml": "Set up a sequence of cones on roughly 35-45 yards of field, ideally towards goal area as diagram shows, with undefended goal.\n\nStart one player on each cone and have 1-2 extra players in line with a ball at the starting block.\n\nYou can double this drill in opposing directions (and have shooter switch to the other side after gathering ball).",
-  "instructionsHtml": "Finishing drill with Overlap and underlap\nA pass to B (and move to B)\nB pass to C (and overlap C)\nC pass to D (and underlap D)\nD pass to B (and move to C)\nB pass to C (and move to D)\nC finishes on net (and switches sides to A)",
-  "progressionsHtml": "If you double this drill or alternate side over time (down the left wing, down the right wing), it is good crossing finishing practice \n\nThere are a few other variations (e.g. one with an added 1-2 then overlap) in my deeper notes, but I tend to run this",
-  "emphasisHtml": "Time your runs and aim/weight your passes where your next target would want to receive it.\n\nThis is meant to be a controlled drill (i.e. with crosses on the deck) with near 100% shot conversion.",
+  "setupHtml": "<p>Set up a sequence of cones on roughly 35-45 yards of field, ideally towards goal area as diagram shows, with undefended goal. Start one player on each cone and have 1-2 extra players in line with a ball at the starting block. You can double this drill in opposing directions (and have shooter switch to the other side after gathering ball).</p>",
+  "instructionsHtml": "<p>Finishing drill with Overlap and underlap A pass to B (and move to B) B pass to C (and overlap C) C pass to D (and underlap D) D pass to B (and move to C) B pass to C (and move to D) C finishes on net (and switches sides to A)</p>",
+  "progressionsHtml": "<p>If you double this drill or alternate side over time (down the left wing, down the right wing), it is good crossing finishing practice There are a few other variations (e.g. one with an added 1-2 then overlap) in my deeper notes, but I tend to run this</p>",
+  "emphasisHtml": "<p>Time your runs and aim/weight your passes where your next target would want to receive it. This is meant to be a controlled drill (i.e. with crosses on the deck) with near 100% shot conversion.</p>",
   "diagram": {
     "localPath": "/media/drills/finishing-combo-with-overlap-and-underlap/diagram-1.png",
     "alt": "Finishing combo with overlap and underlap diagram"
@@ -33,6 +33,6 @@
   ],
   "source": {
     "notionPageUrl": "https://www.notion.so/Finishing-combo-with-overlap-and-underlap-1c8c678bbc53805eb859d2c01fbec54d",
-    "lastSyncedAt": "2026-04-17T04:04:51.256Z"
+    "lastSyncedAt": "2026-04-17T04:28:17.928Z"
   }
 }

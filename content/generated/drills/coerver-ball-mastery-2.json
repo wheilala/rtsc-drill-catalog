@@ -17,10 +17,10 @@
     "max": 1
   },
   "pitchSize": "5 by 5 yd",
-  "setupHtml": "some space and a ball",
-  "instructionsHtml": "(see video for demonstrations) - perform 50-100 touches (or 1-2 mins) of each.  Make sure you’re training both feet on each motion.\n\n1) Full V\n2) Half V\n3) L Behind\n4) Pull-Push\n5) Inside-Outside cuts\n6) Rollover Stop",
+  "setupHtml": "<p>some space and a ball</p>",
+  "instructionsHtml": "<p>(see video for demonstrations) - perform 50-100 touches (or 1-2 mins) of each.  Make sure you’re training both feet on each motion.</p>\n<ol><li>Full V</li><li>Half V</li><li>L Behind</li><li>Pull-Push</li><li>Inside-Outside cuts</li><li>Rollover Stop</li></ol>",
   "progressionsHtml": "",
-  "emphasisHtml": "Body balance and fluidity, building pace and eliminating pauses between reps",
+  "emphasisHtml": "<p>Body balance and fluidity, building pace and eliminating pauses between reps</p>",
   "diagram": {
     "localPath": "/media/drills/coerver-ball-mastery-2/diagram-1.gif",
     "alt": "Coerver Ball Mastery 2 diagram"
@@ -34,6 +34,6 @@
   ],
   "source": {
     "notionPageUrl": "https://www.notion.so/Coerver-Ball-Mastery-2-1c8c678bbc53806387f6ff33a42b3df7",
-    "lastSyncedAt": "2026-04-17T04:04:51.607Z"
+    "lastSyncedAt": "2026-04-17T04:28:18.172Z"
   }
 }

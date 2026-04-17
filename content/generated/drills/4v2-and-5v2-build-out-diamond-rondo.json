@@ -17,9 +17,9 @@
   },
   "pitchSize": "20 by 10 yard rectangle, with cones splitting to two 10x10 squares",
   "setupHtml": "",
-  "instructionsHtml": "One defender must stay on the halfway line but can move side to side.  Other defender can defend in the half where the players are.\nObject is to penetrate back and forth between the two 10 by 10 boxes.  Can add point per transition for offense (and point if defense recovers and dribbles out and stops the ball)\nRotate two defenders every 2 mins",
-  "progressionsHtml": "0) Add point for each transition from one half to the other (for offensive four)\n1) Add point for defenders if they can dribble out of the box and stop the ball\n2) Add 5th offender centrally to work on supporting angles and committing defenders\n3) Reduce playing size for more difficult angles/pace",
-  "emphasisHtml": "Make triangle and move ball around to open a passing lane between the two defenders; \nif defenders are tight, swing ball wide; if defenders are wide, can you split and make the through ball forward?\nSupporting teammates should generate three passing options (defenders should only be able to threaten two of them)\nFast two-touch and one-touch can maintain safe possession;",
+  "instructionsHtml": "<p>One defender must stay on the halfway line but can move side to side.  Other defender can defend in the half where the players are. Object is to penetrate back and forth between the two 10 by 10 boxes.  Can add point per transition for offense (and point if defense recovers and dribbles out and stops the ball) Rotate two defenders every 2 mins</p>",
+  "progressionsHtml": "<ol><li>Add point for each transition from one half to the other (for offensive four)</li><li>Add point for defenders if they can dribble out of the box and stop the ball</li><li>Add 5th offender centrally to work on supporting angles and committing defenders</li><li>Reduce playing size for more difficult angles/pace</li></ol>",
+  "emphasisHtml": "<p>Make triangle and move ball around to open a passing lane between the two defenders; if defenders are tight, swing ball wide; if defenders are wide, can you split and make the through ball forward? Supporting teammates should generate three passing options (defenders should only be able to threaten two of them) Fast two-touch and one-touch can maintain safe possession;</p>",
   "diagram": {
     "localPath": "/media/drills/4v2-and-5v2-build-out-diamond-rondo/diagram-1.png",
     "alt": "4v2 and 5v2 Build Out Diamond Rondo diagram"
@@ -33,6 +33,6 @@
   ],
   "source": {
     "notionPageUrl": "https://www.notion.so/4v2-and-5v2-Build-Out-Diamond-Rondo-1c8c678bbc53807d9a57dbcd97b62e6e",
-    "lastSyncedAt": "2026-04-17T04:04:52.146Z"
+    "lastSyncedAt": "2026-04-17T04:28:18.638Z"
   }
 }

@@ -17,9 +17,9 @@
     "max": 3
   },
   "pitchSize": "15 by 20 yds rectangle",
-  "setupHtml": "Groups of 3 split with  two end cones 12-15 yds apart, and two cones/poles/mannequins in the center spaced 3 yds apart. (A tighter passing area); One ball w/spares nearby;",
-  "instructionsHtml": "Consult Diagram\n\nFirst Variation\nCentral player (B) steps outside of gate to receive pass from (A)\n(A) passes to (B),\n(B) sets back to (A),\n(A) hits a through ball to (C) down the middle (and A moves to middle, B moves to outside)\n2nd Variation\n(A) passes to (B) who stays central\n(A) shifts outside to receive a set pass\n(B) sets the ball back to A out wide\n(A) passes to (C) outside the poles\n(A) moves to middle, (B) to outside replacing (A)",
-  "progressionsHtml": "One variation has the central player break out wide, while second variation has passer make a shifting run wide to receive a set pass.",
+  "setupHtml": "<p>Groups of 3 split with  two end cones 12-15 yds apart, and two cones/poles/mannequins in the center spaced 3 yds apart. (A tighter passing area); One ball w/spares nearby;</p>",
+  "instructionsHtml": "<p>Consult Diagram First Variation Central player (B) steps outside of gate to receive pass from (A) (A) passes to (B), (B) sets back to (A), (A) hits a through ball to (C) down the middle (and A moves to middle, B moves to outside) 2nd Variation (A) passes to (B) who stays central (A) shifts outside to receive a set pass (B) sets the ball back to A out wide (A) passes to (C) outside the poles (A) moves to middle, (B) to outside replacing (A)</p>",
+  "progressionsHtml": "<p>One variation has the central player break out wide, while second variation has passer make a shifting run wide to receive a set pass.</p>",
   "emphasisHtml": "",
   "diagram": {
     "localPath": "/media/drills/pass-set-through-continuous-3-man-passing-pattern/diagram-1.png",
@@ -34,6 +34,6 @@
   ],
   "source": {
     "notionPageUrl": "https://www.notion.so/Pass-Set-Through-Continuous-3-man-passing-pattern-1c8c678bbc53805b9cb8fdfeeaf70af0",
-    "lastSyncedAt": "2026-04-17T04:04:50.977Z"
+    "lastSyncedAt": "2026-04-17T04:28:17.704Z"
   }
 }

@@ -17,10 +17,10 @@
     "max": 1
   },
   "pitchSize": "5 by 5 yd space",
-  "setupHtml": "just some space and a ball (can be inside!)",
-  "instructionsHtml": "1) Toe Taps; \n2) Foundations; \n3) Triangles; \n4) Roll-in, \n5) Roll-out; \n6) Brazilians; \n7) Rollout, push in; \n8) Balance Circles; \n9) Sole-roll, tap-tap; \n10) Stepover, drag back, tap tap;",
-  "progressionsHtml": "Learn moves 6-10 one by one and add them to the simpler moves with patience",
-  "emphasisHtml": "Body balance, confidence with various touches, 1000 touch workouts",
+  "setupHtml": "<p>just some space and a ball (can be inside!)</p>",
+  "instructionsHtml": "<ol><li>Toe Taps;</li><li>Foundations;</li><li>Triangles;</li><li>Roll-in,</li><li>Roll-out;</li><li>Brazilians;</li><li>Rollout, push in;</li><li>Balance Circles;</li><li>Sole-roll, tap-tap;</li><li>Stepover, drag back, tap tap;</li></ol>",
+  "progressionsHtml": "<p>Learn moves 6-10 one by one and add them to the simpler moves with patience</p>",
+  "emphasisHtml": "<p>Body balance, confidence with various touches, 1000 touch workouts</p>",
   "diagram": {
     "localPath": "/media/drills/coerver-ball-mastery-1/diagram-1.gif",
     "alt": "Coerver Ball Mastery 1 diagram"
@@ -34,6 +34,6 @@
   ],
   "source": {
     "notionPageUrl": "https://www.notion.so/Coerver-Ball-Mastery-1-1c8c678bbc5380f9b54adfcb9b5bd8f9",
-    "lastSyncedAt": "2026-04-17T04:04:54.705Z"
+    "lastSyncedAt": "2026-04-17T04:28:20.604Z"
   }
 }

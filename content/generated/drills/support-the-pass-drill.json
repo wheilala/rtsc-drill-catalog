@@ -17,10 +17,10 @@
     "max": 19
   },
   "pitchSize": "20 by 40+ yd rectangle w/cones on corners;",
-  "setupHtml": "Long, narrow rectangle (cones on corners), and three cones in a line in the middle (~5-10 yds apart) - larger space is easier\n\nThree players go in the middle (one per cone), and rest of players divide evenly.  Run drill with one ball.",
-  "instructionsHtml": "1) A pair on one sides start the play and run together, serving up passes to each of the three central teammates on cones\n2) Middle players can choose whether to return the pass or switch sides based on arrival of pass and player positions\n3) When they reach the other side",
-  "progressionsHtml": "1) Touch restrictions\n2) Must use third man each time\n3) Must return set pass and then square to third man each time",
-  "emphasisHtml": "Time your runs in support and weight your passes in-line, for quick receiving by teammate",
+  "setupHtml": "<p>Long, narrow rectangle (cones on corners), and three cones in a line in the middle (~5-10 yds apart) - larger space is easier Three players go in the middle (one per cone), and rest of players divide evenly.  Run drill with one ball.</p>",
+  "instructionsHtml": "<ol><li>A pair on one sides start the play and run together, serving up passes to each of the three central teammates on cones</li><li>Middle players can choose whether to return the pass or switch sides based on arrival of pass and player positions</li><li>When they reach the other side</li></ol>",
+  "progressionsHtml": "<ol><li>Touch restrictions</li><li>Must use third man each time</li><li>Must return set pass and then square to third man each time</li></ol>",
+  "emphasisHtml": "<p>Time your runs in support and weight your passes in-line, for quick receiving by teammate</p>",
   "diagram": {
     "localPath": "/media/drills/support-the-pass-drill/diagram-1.png",
     "alt": "Support the Pass Drill diagram"
@@ -34,6 +34,6 @@
   ],
   "source": {
     "notionPageUrl": "https://www.notion.so/Support-the-Pass-Drill-1c8c678bbc53806fad1edfbe4873aeba",
-    "lastSyncedAt": "2026-04-17T04:04:51.895Z"
+    "lastSyncedAt": "2026-04-17T04:28:18.458Z"
   }
 }

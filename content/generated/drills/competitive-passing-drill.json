@@ -15,10 +15,10 @@
     "max": 18
   },
   "pitchSize": "25 by 35 yds",
-  "setupHtml": "Set up two squares (12-15 yd) with poles, or alternatively cones.   Between the two squares, put a small goal (see diagram)\nDivide into two teams\nOne player outside each pole, extra players at starting spot (see diagram) with their own ball.",
-  "instructionsHtml": "Objective is to complete the passing pattern and finish to goal X times before other team does.\n1) Each team starts closest to the small goal, and passes around their square quickly (and stay put)\n2) Final player must finish to goal (can dribble towards it) and then go to back of the starting line\n3) Once goal has been scored, other players advance to the next pole and next player in starting line with ball can start the next rotation.\n4) Repeat until all players waiting in line with a ball have gone (e.g. teams of 7 will do four patterns around the square in one race). \nTeam who completes first wins the round. See progressions.",
-  "progressionsHtml": "0) Pass around the Square\n1) Triangle passing  (pass, set, next)",
-  "emphasisHtml": "Pace of play and cleanly weighted passing to win the race",
+  "setupHtml": "<p>Set up two squares (12-15 yd) with poles, or alternatively cones.   Between the two squares, put a small goal (see diagram) Divide into two teams One player outside each pole, extra players at starting spot (see diagram) with their own ball.</p>",
+  "instructionsHtml": "<p>Objective is to complete the passing pattern and finish to goal X times before other team does.</p>\n<ol><li>Each team starts closest to the small goal, and passes around their square quickly (and stay put)</li><li>Final player must finish to goal (can dribble towards it) and then go to back of the starting line</li><li>Once goal has been scored, other players advance to the next pole and next player in starting line with ball can start the next rotation.</li><li>Repeat until all players waiting in line with a ball have gone (e.g. teams of 7 will do four patterns around the square in one race). Team who completes first wins the round. See progressions.</li></ol>",
+  "progressionsHtml": "<ol><li>Pass around the Square</li><li>Triangle passing  (pass, set, next)</li></ol>",
+  "emphasisHtml": "<p>Pace of play and cleanly weighted passing to win the race</p>",
   "diagram": {
     "localPath": "/media/drills/competitive-passing-drill/diagram-1.png",
     "alt": "Competitive Passing Drill diagram"
@@ -32,6 +32,6 @@
   ],
   "source": {
     "notionPageUrl": "https://www.notion.so/Competitive-Passing-Drill-1c8c678bbc5380abb478d906815004e5",
-    "lastSyncedAt": "2026-04-17T04:04:53.456Z"
+    "lastSyncedAt": "2026-04-17T04:28:19.666Z"
   }
 }

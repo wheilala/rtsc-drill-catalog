@@ -16,10 +16,10 @@
     "max": 8
   },
   "pitchSize": "30 by 40 yds",
-  "setupHtml": "Set up a 30 by 40 yd  rectangle into four zones of 10 yds each (like football grid).  2+ finishing goals at the end. \nDivide players into three teams (e.g. of 3), and start each in the first zone (or just before the first zone).  Split attendees evenly (i.e. 2, 3 or 4 teams) as needed.",
-  "instructionsHtml": "1) Objective is for each team member to touch the ball (receive and make a pass) in each zone.  \n2) Once complete, move to the next zone and do the same.  \n3) Once the fourth zone is complete, finish to goal and all players sit down.\n\nTeammates can advance to next zone once they’ve done their touches.  \n\nTeams overly messing with other teams will be DQd from the round (stay in your lane, but no boundaries.  And no, everyone toe’ing the ball in the middle doesn’t count.  Figure out how small your circle will be for quick one-touches under control.",
+  "setupHtml": "<p>Set up a 30 by 40 yd  rectangle into four zones of 10 yds each (like football grid).  2+ finishing goals at the end. Divide players into three teams (e.g. of 3), and start each in the first zone (or just before the first zone).  Split attendees evenly (i.e. 2, 3 or 4 teams) as needed.</p>",
+  "instructionsHtml": "<ol><li>Objective is for each team member to touch the ball (receive and make a pass) in each zone.</li><li>Once complete, move to the next zone and do the same.</li><li>Once the fourth zone is complete, finish to goal and all players sit down. Teammates can advance to next zone once they’ve done their touches. Teams overly messing with other teams will be DQd from the round (stay in your lane, but no boundaries.  And no, everyone toe’ing the ball in the middle doesn’t count.  Figure out how small your circle will be for quick one-touches under control.</li></ol>",
   "progressionsHtml": "",
-  "emphasisHtml": "How fast can you move the ball among each other in each zone?\nCan you advance to the next zone quickly via third man run-ahead?",
+  "emphasisHtml": "<p>How fast can you move the ball among each other in each zone? Can you advance to the next zone quickly via third man run-ahead?</p>",
   "diagram": {
     "localPath": "/media/drills/four-zone-team-relay-race/diagram-1.png",
     "alt": "Four Zone team relay race diagram"
@@ -33,6 +33,6 @@
   ],
   "source": {
     "notionPageUrl": "https://www.notion.so/Four-Zone-team-relay-race-1c8c678bbc53802cbc2ddfa0b6006c89",
-    "lastSyncedAt": "2026-04-17T04:04:50.222Z"
+    "lastSyncedAt": "2026-04-17T04:28:17.087Z"
   }
 }
