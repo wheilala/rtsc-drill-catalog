@@ -8,32 +8,45 @@ const topics = await getAllTopics();
 ---
 
 <SiteLayout title="Drills | RTSC Drill Catalog" description="Browse published drills by topic and group size.">
-  <section class="page-header">
-    <p class="eyebrow">Drills</p>
+  <section class="catalog-header">
+    <p class="eyebrow">Curated drills</p>
     <h1>Drill catalog</h1>
-    <p class="lede">Filter by training topic, group size, and whether a drill includes a video link.</p>
+    <p class="catalog-lede">Drills that have worked for RTSC Impact and Eagles (U10-U14)</p>
+    <div class="catalog-meta">
+      <span id="results-count">{drills.length} drills</span>
+      <span>{topics.length} topics</span>
+    </div>
   </section>
 
-  <section class="filter-panel">
-    <label>
-      Topic
-      <select id="topic-filter">
-        <option value="">All topics</option>
+  <section class="catalog-toolbar">
+    <div class="filter-rail">
+      <div class="sidebar-label">Topics</div>
+      <div class="filter-chip-row" id="topic-filter-bar" aria-label="Topic filters">
+        <button class="filter-link is-active" type="button" data-topic-chip data-topic-value="">
+          <span>All drills</span>
+        </button>
         {topics.map((topic) => (
-          <option value={topic}>{topic}</option>
+          <button class="filter-link" type="button" data-topic-chip data-topic-value={topic}>
+            <span>{topic}</span>
+          </button>
         ))}
-      </select>
-    </label>
+      </div>
+    </div>
 
-    <label>
-      Group size
-      <input id="group-size-filter" type="number" min="1" inputmode="numeric" placeholder="Any" />
-    </label>
+    <div class="catalog-controls">
+      <label class="rail-input">
+        <span>Group size</span>
+        <input id="group-size-filter" type="number" min="1" inputmode="numeric" placeholder="Any" />
+      </label>
 
-    <label class="checkbox">
-      <input id="video-filter" type="checkbox" />
-      <span>Has video</span>
-    </label>
+      <button class="rail-toggle" id="video-filter" type="button" aria-pressed="false">
+        <span>Has video</span>
+      </button>
+
+      <button class="toolbar-link" id="clear-filters" type="button">
+        Clear filters
+      </button>
+    </div>
   </section>
 
   <section class="drill-grid" id="drill-grid">
@@ -48,10 +61,14 @@ const topics = await getAllTopics();
   </section>
 
   <script is:inline>
-    const topicFilter = document.getElementById("topic-filter");
+    const topicButtons = [...document.querySelectorAll("[data-topic-chip]")];
     const groupSizeFilter = document.getElementById("group-size-filter");
     const videoFilter = document.getElementById("video-filter");
+    const clearFilters = document.getElementById("clear-filters");
+    const resultsCount = document.getElementById("results-count");
     const cards = [...document.querySelectorAll("[data-drill-card]")];
+    let selectedTopic = "";
+    let requiresVideo = false;
 
     function matchesGroupSize(card, value) {
       if (!value) return true;
@@ -64,9 +81,9 @@ const topics = await getAllTopics();
     }
 
     function applyFilters() {
-      const topic = topicFilter.value;
+      const topic = selectedTopic;
       const requestedGroupSize = Number(groupSizeFilter.value || 0);
-      const requiresVideo = videoFilter.checked;
+      let visibleCount = 0;
 
       for (const card of cards) {
         const topics = JSON.parse(card.dataset.topics || "[]");
@@ -75,11 +92,38 @@ const topics = await getAllTopics();
         const groupMatch = matchesGroupSize(card, requestedGroupSize);
         const videoMatch = !requiresVideo || hasVideo;
         card.hidden = !(matchesTopic && groupMatch && videoMatch);
+        if (!card.hidden) visibleCount += 1;
+      }
+
+      if (resultsCount) {
+        resultsCount.textContent = `${visibleCount} drill${visibleCount === 1 ? "" : "s"}`;
       }
     }
 
-    topicFilter?.addEventListener("change", applyFilters);
+    topicButtons.forEach((button) => {
+      button.addEventListener("click", () => {
+        selectedTopic = button.dataset.topicValue || "";
+        topicButtons.forEach((item) => item.classList.toggle("is-active", item === button));
+        applyFilters();
+      });
+    });
+
     groupSizeFilter?.addEventListener("input", applyFilters);
-    videoFilter?.addEventListener("change", applyFilters);
+    videoFilter?.addEventListener("click", () => {
+      requiresVideo = !requiresVideo;
+      videoFilter.setAttribute("aria-pressed", String(requiresVideo));
+      videoFilter.classList.toggle("is-active", requiresVideo);
+      applyFilters();
+    });
+
+    clearFilters?.addEventListener("click", () => {
+      selectedTopic = "";
+      requiresVideo = false;
+      if (groupSizeFilter) groupSizeFilter.value = "";
+      topicButtons.forEach((item) => item.classList.toggle("is-active", item.dataset.topicValue === ""));
+      videoFilter?.setAttribute("aria-pressed", "false");
+      videoFilter?.classList.remove("is-active");
+      applyFilters();
+    });
   </script>
 </SiteLayout>

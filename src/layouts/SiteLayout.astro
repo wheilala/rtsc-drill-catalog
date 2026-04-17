@@ -1,9 +1,10 @@
 ---
 import "../styles/global.css";
 import { withBase } from "../lib/paths.js";
+import clubLogo from "../../content/site-images/logo.jpg";
 
 const {
-  title = "RTSC Drill Catalog",
+  title = "Wayne's RTSC Drill Catalog",
   description = "Coach-friendly drill catalog and curated session plans."
 } = Astro.props;
 ---
@@ -15,12 +16,21 @@ const {
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content={description} />
     <meta name="robots" content="noindex,nofollow" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Manrope:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <title>{title}</title>
   </head>
   <body>
     <div class="site-shell">
       <header class="site-header">
-        <a class="brand" href={withBase("/")}>RTSC Drill Catalog</a>
+        <a class="brand" href={withBase("/")}>
+          <img class="brand-mark" src={clubLogo.src} alt="Rose Tree Soccer Club crest" />
+          <span class="brand-text">Wayne's RTSC Drill Catalog</span>
+        </a>
         <nav class="site-nav" aria-label="Primary">
           <a href={withBase("/drills")}>Drills</a>
           <a href={withBase("/session-plans")}>Session Plans</a>

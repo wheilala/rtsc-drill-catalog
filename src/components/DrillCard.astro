@@ -2,11 +2,12 @@
 import { withBase } from "../lib/paths.js";
 
 const { drill } = Astro.props;
-
 const groupSizeLabel =
   drill.groupSize?.min || drill.groupSize?.max
     ? `${drill.groupSize?.min ?? "?"}-${drill.groupSize?.max ?? "?"} players`
     : "Group size flexible";
+
+const shortMeta = drill.pitchSize ? `${groupSizeLabel} · ${drill.pitchSize}` : groupSizeLabel;
 ---
 
 <article
@@ -18,11 +19,13 @@ const groupSizeLabel =
   data-has-video={drill.videos?.length ? "true" : "false"}
 >
   <a class="drill-card-link" href={withBase(`/drills/${drill.slug}`)}>
-    {drill.diagram?.localPath ? (
-      <img class="drill-card-image" src={withBase(drill.diagram.localPath)} alt={drill.diagram.alt || ""} />
-    ) : (
-      <div class="drill-card-image placeholder">No diagram yet</div>
-    )}
+    <div class="drill-card-media">
+      {drill.diagram?.localPath ? (
+        <img class="drill-card-image" src={withBase(drill.diagram.localPath)} alt={drill.diagram.alt || ""} />
+      ) : (
+        <div class="drill-card-image placeholder">No diagram yet</div>
+      )}
+    </div>
     <div class="drill-card-body">
       <div class="drill-card-topics">
         {(drill.topics || []).map((topic) => (
@@ -30,10 +33,9 @@ const groupSizeLabel =
         ))}
       </div>
       <h3>{drill.title}</h3>
-      <p>{drill.summary || "No summary added yet."}</p>
+      <p class="drill-card-summary">{drill.summary || "No summary added yet."}</p>
       <div class="drill-card-meta">
-        <span>{groupSizeLabel}</span>
-        {drill.pitchSize ? <span>{drill.pitchSize}</span> : null}
+        <span>{shortMeta}</span>
       </div>
     </div>
   </a>

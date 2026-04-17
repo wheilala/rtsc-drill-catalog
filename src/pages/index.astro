@@ -2,15 +2,16 @@
 import SiteLayout from "../layouts/SiteLayout.astro";
 import { withBase } from "../lib/paths.js";
 import { getAllDrills, getAllSessionPlans } from "../lib/content.js";
+import excellenceImage from "../../content/site-images/rtsc-excellence.jpg";
 
 const drills = await getAllDrills();
 const sessionPlans = await getAllSessionPlans();
 ---
 
-<SiteLayout title="RTSC Drill Catalog" description="Coach-facing drill library and curated session plans.">
+<SiteLayout title="Wayne's RTSC Drill Catalog" description="Coach-facing drill library and curated session plans.">
   <section class="hero">
     <div class="hero-copy">
-      <p class="eyebrow">RTSC coaching library</p>
+      <p class="eyebrow">RTSC Coaching Library</p>
       <h1>Shared drills and session plans for club coaches.</h1>
       <p class="lede">
         Browse the drill catalog by topic and group size, then open drill pages with diagrams and video references.
@@ -19,16 +20,22 @@ const sessionPlans = await getAllSessionPlans();
         <a class="button-link" href={withBase("/drills")}>Browse drills</a>
         <a class="button-link secondary" href={withBase("/session-plans")}>View session plans</a>
       </div>
+      <div class="hero-inline-stats">
+        <div>
+          <strong>{drills.length}</strong>
+          <span>Published drills</span>
+        </div>
+        <div>
+          <strong>{sessionPlans.length}</strong>
+          <span>Curated session plans (coming soon)</span>
+        </div>
+      </div>
     </div>
-    <div class="stat-panel">
-      <div>
-        <strong>{drills.length}</strong>
-        <span>Published drills</span>
+    <div class="hero-aside">
+      <div class="hero-image-frame">
+        <img class="hero-image" src={excellenceImage.src} alt="Rose Tree Soccer excellence graphic" />
       </div>
-      <div>
-        <strong>{sessionPlans.length}</strong>
-        <span>Curated session plans</span>
-      </div>
+      <p class="hero-note">With credit and kudos to all the coaches and creators who've contributed these resources on the web!</p>
     </div>
   </section>
 </SiteLayout>
