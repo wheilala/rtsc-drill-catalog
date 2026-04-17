@@ -1,0 +1,37 @@
+{
+  "id": "1c8c678b-bc53-808e-b47e-c0a914c77ba2",
+  "slug": "1v1-receiving-and-finishing-under-pressure",
+  "title": "1v1 Receiving and Finishing under pressure",
+  "publish": true,
+  "featured": false,
+  "sortOrder": 0,
+  "summary": "A simple first-touch 1v1 drill to train change of direction (positive first touch) and escaping an oncoming defender",
+  "topics": [
+    "First Touch",
+    "1v1",
+    "Dribbling"
+  ],
+  "groupSize": {
+    "min": 4,
+    "max": 8
+  },
+  "pitchSize": "~15 by 25 yd space",
+  "setupHtml": "set two cones ~5yds apart in the between two players ~20 yds apart-Passer is 15 yards from cones, receiver is 5 yards from cones; Two small goals wide behind the passer (see diagram)  (or can use a cone gate to stop the ball beyond)",
+  "instructionsHtml": "1) Player with a ball makes a pass between the two cones to opponent (and becomes defender); Advance towards the defender (but cannot run between the two cones)\n2) Receiver must receive the ball with a first touch outside of the cones (i.e. to the left or to the right) and try to finish to one of the goals.  The defender has probably picked one side of the two cones, so make your first touch to the other direction and explode forward.\n3) Defender must try to stop the player from scoring into the goal, and cannot run between the two cones (i.e. must",
+  "progressionsHtml": "",
+  "emphasisHtml": "Positive first touch; Explode forward towards that first touch\nDefender is to add pressure (will not be easy to actually stop scoring)\nChallenge each other",
+  "diagram": {
+    "localPath": "/media/drills/1v1-receiving-and-finishing-under-pressure/diagram-1.png",
+    "alt": "1v1 Receiving and Finishing under pressure diagram"
+  },
+  "videos": [
+    {
+      "provider": "facebook",
+      "sourceUrl": "https://www.facebook.com/reel/1127425281651050"
+    }
+  ],
+  "source": {
+    "notionPageUrl": "https://www.notion.so/1v1-Receiving-and-Finishing-under-pressure-1c8c678bbc53808eb47ec0a914c77ba2",
+    "lastSyncedAt": "2026-04-17T04:04:52.620Z"
+  }
+}

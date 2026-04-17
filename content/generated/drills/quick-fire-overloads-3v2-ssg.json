@@ -1,0 +1,40 @@
+{
+  "id": "1c8c678b-bc53-80d8-8f21-d8136f92d151",
+  "slug": "quick-fire-overloads-3v2-ssg",
+  "title": "Quick Fire Overloads 3v2 SSG",
+  "publish": true,
+  "featured": false,
+  "sortOrder": 0,
+  "summary": "A great 3v2 continuous SSG promoting overloads and quick transitions",
+  "topics": [
+    "Third Man Runs",
+    "SSG",
+    "Passing",
+    "Finishing",
+    "Overloads"
+  ],
+  "groupSize": {
+    "min": 12,
+    "max": 12
+  },
+  "pitchSize": "20 by 40 yd w/goals",
+  "setupHtml": "Two goals at each end and two teams of six (including GK).\nEach team has 2 defenders in defensive half, 1 striker in attacking half.  These players must stay in their half.\nEach team has 2 midfielders started in a central box who can join in attacking half when their striker receives pass from coach.",
+  "instructionsHtml": "1. Coach plays ball to one team’s striker (whose back is to goal).  \n2. That striker’s midfielders join in attacking half and try to score on goal.\n3. If team scores or ball goes OOB, restarts from coach with a new ball\n4. If defense steals they can transition and play to attacking half",
+  "progressionsHtml": "",
+  "emphasisHtml": "",
+  "diagram": {
+    "localPath": "/media/drills/quick-fire-overloads-3v2-ssg/diagram-1.png",
+    "alt": "Quick Fire Overloads 3v2 SSG diagram"
+  },
+  "videos": [
+    {
+      "provider": "youtube",
+      "sourceUrl": "https://www.youtube.com/watch?v=uwd0y-mTztQ",
+      "embedUrl": "https://www.youtube.com/embed/uwd0y-mTztQ"
+    }
+  ],
+  "source": {
+    "notionPageUrl": "https://www.notion.so/Quick-Fire-Overloads-3v2-SSG-1c8c678bbc5380d88f21d8136f92d151",
+    "lastSyncedAt": "2026-04-17T04:04:54.076Z"
+  }
+}

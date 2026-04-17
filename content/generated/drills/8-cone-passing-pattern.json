@@ -1,0 +1,31 @@
+{
+  "id": "1c8c678b-bc53-8042-9bc6-d47ef1a90b6f",
+  "slug": "8-cone-passing-pattern",
+  "title": "8 cone passing pattern",
+  "publish": true,
+  "featured": false,
+  "sortOrder": 0,
+  "summary": "A basic group passing pattern for working on back foot receiving, and follow-your-pass flow;",
+  "topics": [
+    "Undefended",
+    "Passing"
+  ],
+  "groupSize": {
+    "min": 9,
+    "max": 10
+  },
+  "pitchSize": "~25 by 40 yd space (can vary for passing length you’re training….too small is hard)",
+  "setupHtml": "Set up 8 cones as shown in diagram; one player per cone, then add’l player on starting cone behind each ball used",
+  "instructionsHtml": "1) Player with ball passes to next cone, aiming for back foot of teammate; Follow your pass",
+  "progressionsHtml": "start with one ball but can incorporate two balls (need cones+X for X balls, e.g., 9 players to do one ball, 10 for two)",
+  "emphasisHtml": "Target your teammates correct foot to make the next pass; \nOpen your hips/body and receive on back foot; \nCan you check to defender then open up/back up to receive pass  (first move for the defender)\nQuick two-touch if you can - how fast can you progress the ball around with flow?\nExplode to the next cone when following your pass",
+  "diagram": {
+    "localPath": "/media/drills/8-cone-passing-pattern/diagram-1.png",
+    "alt": "8 cone passing pattern diagram"
+  },
+  "videos": [],
+  "source": {
+    "notionPageUrl": "https://www.notion.so/8-cone-passing-pattern-1c8c678bbc5380429bc6d47ef1a90b6f",
+    "lastSyncedAt": "2026-04-17T04:04:50.420Z"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "1c8c678b-bc53-80f9-b54a-dfcb9b5bd8f9",
+  "slug": "coerver-ball-mastery-1",
+  "title": "Coerver Ball Mastery 1",
+  "publish": true,
+  "featured": false,
+  "sortOrder": 0,
+  "summary": "Ball mastery solo training sequence",
+  "topics": [
+    "Solo Training",
+    "Ball Mastery",
+    "Dribbling",
+    "Undefended"
+  ],
+  "groupSize": {
+    "min": 1,
+    "max": 1
+  },
+  "pitchSize": "5 by 5 yd space",
+  "setupHtml": "just some space and a ball (can be inside!)",
+  "instructionsHtml": "1) Toe Taps; \n2) Foundations; \n3) Triangles; \n4) Roll-in, \n5) Roll-out; \n6) Brazilians; \n7) Rollout, push in; \n8) Balance Circles; \n9) Sole-roll, tap-tap; \n10) Stepover, drag back, tap tap;",
+  "progressionsHtml": "Learn moves 6-10 one by one and add them to the simpler moves with patience",
+  "emphasisHtml": "Body balance, confidence with various touches, 1000 touch workouts",
+  "diagram": {
+    "localPath": "/media/drills/coerver-ball-mastery-1/diagram-1.gif",
+    "alt": "Coerver Ball Mastery 1 diagram"
+  },
+  "videos": [
+    {
+      "provider": "youtube",
+      "sourceUrl": "https://www.youtube.com/watch?v=8ce48HgB1Eo",
+      "embedUrl": "https://www.youtube.com/embed/8ce48HgB1Eo"
+    }
+  ],
+  "source": {
+    "notionPageUrl": "https://www.notion.so/Coerver-Ball-Mastery-1-1c8c678bbc5380f9b54adfcb9b5bd8f9",
+    "lastSyncedAt": "2026-04-17T04:04:54.705Z"
+  }
+}

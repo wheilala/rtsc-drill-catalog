@@ -1,0 +1,38 @@
+{
+  "id": "1c8c678b-bc53-80f7-9bf0-d5f50be13b9f",
+  "slug": "pairs-aggressive-receiving-relay-race",
+  "title": "Pairs Aggressive Receiving Relay Race",
+  "publish": true,
+  "featured": false,
+  "sortOrder": 0,
+  "summary": "This is a simple pairs relay race that allows you to train positive first touch in a competitive format.  This is also decent conditioning as they’re racing.",
+  "topics": [
+    "Relay Race",
+    "First Touch",
+    "Passing"
+  ],
+  "groupSize": {
+    "min": 4,
+    "max": 20
+  },
+  "pitchSize": "25 x 30 yds (or more)",
+  "setupHtml": "Set up pairs with cones 15 yds apart for each pair (straight line), spaced ~6-8 yards apart. One ball per pair, players facing each other, behind cones.",
+  "instructionsHtml": "Object is to complete 8 reps of the pass then dribble pattern (honor system, shout “done” when complete).\n\nOn “go”:\n1.player (A) with ball passes to teammate (B) and then runs across to the other cone.\n2.Once pass is made, run to meet the ball, control w/positive touch and (3) dribble across to other cone, turning around it\nB then sends the ball to A (repeating pattern).\n\nWinner: First pair to 8 (10?) completed reps  and sits down",
+  "progressionsHtml": "I tend to use long passes by keeping partners far apart, but same idea (w/more finesse touches) can be done on shorter distances.",
+  "emphasisHtml": "Positive first touch, pace of play, and clean passing;",
+  "diagram": {
+    "localPath": "/media/drills/pairs-aggressive-receiving-relay-race/diagram-1.png",
+    "alt": "Pairs Aggressive Receiving Relay Race diagram"
+  },
+  "videos": [
+    {
+      "provider": "youtube",
+      "sourceUrl": "https://youtu.be/mQ2_Pi1kJjU?si=2eX-6hzBe3gXAhTc&t=37",
+      "embedUrl": "https://www.youtube.com/embed/mQ2_Pi1kJjU"
+    }
+  ],
+  "source": {
+    "notionPageUrl": "https://www.notion.so/Pairs-Aggressive-Receiving-Relay-Race-1c8c678bbc5380f79bf0d5f50be13b9f",
+    "lastSyncedAt": "2026-04-17T04:04:54.459Z"
+  }
+}

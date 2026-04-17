@@ -1,0 +1,39 @@
+{
+  "id": "1c8c678b-bc53-8018-b6c2-f9463651df33",
+  "slug": "3v33-ssg-four-goal-with-scanning",
+  "title": "3v3+3 SSG four-goal with scanning",
+  "publish": true,
+  "featured": false,
+  "sortOrder": 0,
+  "summary": "A four goal SSG with scanning cues to unlock and finish on specific (color) goals.  This SSG helps promote awareness of surroundings without a set directional play for a given team, and has competitive scoring to goal.",
+  "topics": [
+    "Scanning",
+    "SSG",
+    "Passing",
+    "Transition"
+  ],
+  "groupSize": {
+    "min": 9,
+    "max": 12
+  },
+  "pitchSize": "~20 by 30 yds",
+  "setupHtml": "Set up rectangle w/two goals wide on each long side.  Set up two goals w “red” cones, and two with “blue” cones (one color per side).\nThree teams of three (or four), where one team serves as neutrals on the edges (see diagram).\nSet up coach on one short side w/multiple balls to restart play.",
+  "instructionsHtml": "1) Coach feeds in a ball and team tries to keep possession (using neutrals outside for a 6v3), UNTIL coach holds up a cone of one of the colors into the air.  \n2) When coach holds up one cone color, possessing team can finish on that color goal once activated.\n3) If ball goes OOB, coach restarts w/new ball.  If possession changes, continue play",
+  "progressionsHtml": "Can extend field size and go 4v4+4 as needed",
+  "emphasisHtml": "Be alert! Scan for (a) goal activation, (b) goal locations, and (c) opponent locations to score quickly when activated.",
+  "diagram": {
+    "localPath": "/media/drills/3v33-ssg-four-goal-with-scanning/diagram-1.png",
+    "alt": "3v3+3 SSG four-goal with scanning diagram"
+  },
+  "videos": [
+    {
+      "provider": "youtube",
+      "sourceUrl": "https://www.youtube.com/watch?v=A7YR73ALZ1s",
+      "embedUrl": "https://www.youtube.com/embed/A7YR73ALZ1s"
+    }
+  ],
+  "source": {
+    "notionPageUrl": "https://www.notion.so/3v3-3-SSG-four-goal-with-scanning-1c8c678bbc538018b6c2f9463651df33",
+    "lastSyncedAt": "2026-04-17T04:04:49.877Z"
+  }
+}

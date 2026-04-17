@@ -1,0 +1,39 @@
+{
+  "id": "1c8c678b-bc53-8063-87f6-ff33a42b3df7",
+  "slug": "coerver-ball-mastery-2",
+  "title": "Coerver Ball Mastery 2",
+  "publish": true,
+  "featured": false,
+  "sortOrder": 0,
+  "summary": "Ball mastery solo training sequence",
+  "topics": [
+    "Solo Training",
+    "Ball Mastery",
+    "Dribbling",
+    "Undefended"
+  ],
+  "groupSize": {
+    "min": 1,
+    "max": 1
+  },
+  "pitchSize": "5 by 5 yd",
+  "setupHtml": "some space and a ball",
+  "instructionsHtml": "(see video for demonstrations) - perform 50-100 touches (or 1-2 mins) of each.  Make sure you’re training both feet on each motion.\n\n1) Full V\n2) Half V\n3) L Behind\n4) Pull-Push\n5) Inside-Outside cuts\n6) Rollover Stop",
+  "progressionsHtml": "",
+  "emphasisHtml": "Body balance and fluidity, building pace and eliminating pauses between reps",
+  "diagram": {
+    "localPath": "/media/drills/coerver-ball-mastery-2/diagram-1.gif",
+    "alt": "Coerver Ball Mastery 2 diagram"
+  },
+  "videos": [
+    {
+      "provider": "youtube",
+      "sourceUrl": "https://www.youtube.com/watch?v=XWeypwK6mbk",
+      "embedUrl": "https://www.youtube.com/embed/XWeypwK6mbk"
+    }
+  ],
+  "source": {
+    "notionPageUrl": "https://www.notion.so/Coerver-Ball-Mastery-2-1c8c678bbc53806387f6ff33a42b3df7",
+    "lastSyncedAt": "2026-04-17T04:04:51.607Z"
+  }
+}

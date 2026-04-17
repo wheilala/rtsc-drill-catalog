@@ -1,0 +1,38 @@
+{
+  "id": "1c8c678b-bc53-8095-81ae-cbf30258f0fd",
+  "slug": "moving-triangle-passing-pattern",
+  "title": "Moving Triangle Passing Pattern",
+  "publish": true,
+  "featured": false,
+  "sortOrder": 0,
+  "summary": "A diamond passing pattern that works 3-man triangle passes, ideally with one-touch passing.  Excellent for body shape and pass weighting reps",
+  "topics": [
+    "Passing",
+    "Undefended",
+    "Triangles"
+  ],
+  "groupSize": {
+    "min": 6,
+    "max": 6
+  },
+  "pitchSize": "15 by 15 diamond",
+  "setupHtml": "Diamond (at least 10 yds apart) with a cone in the center.  Player on each cone, 6th player behind player starting with the one ball.",
+  "instructionsHtml": "1. Outside player A passes to B\n2. B sets back to A\n3. A passes inside to center (C) and moves to next cone (B)\n4. C plays a through ball to B who begins run (and restarts as A in these instructions)\n5. Once four triangles have been made (all the way around diamond), center player rotates out after playing through ball",
+  "progressionsHtml": "",
+  "emphasisHtml": "Continuous passing and movement; Clean passes that are: snappy/weighted well, suggest receiver next touch",
+  "diagram": {
+    "localPath": "/media/drills/moving-triangle-passing-pattern/diagram-1.png",
+    "alt": "Moving Triangle Passing Pattern diagram"
+  },
+  "videos": [
+    {
+      "provider": "youtube",
+      "sourceUrl": "https://www.youtube.com/watch?v=IU5LTESqVBk",
+      "embedUrl": "https://www.youtube.com/embed/IU5LTESqVBk"
+    }
+  ],
+  "source": {
+    "notionPageUrl": "https://www.notion.so/Moving-Triangle-Passing-Pattern-1c8c678bbc53809581aecbf30258f0fd",
+    "lastSyncedAt": "2026-04-17T04:04:53.065Z"
+  }
+}

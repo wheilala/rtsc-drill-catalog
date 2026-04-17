@@ -1,0 +1,293 @@
+{
+  "items": [
+    {
+      "slug": "1v1-receiving-and-finishing-under-pressure",
+      "title": "1v1 Receiving and Finishing under pressure",
+      "topics": [
+        "First Touch",
+        "1v1",
+        "Dribbling"
+      ],
+      "summary": "A simple first-touch 1v1 drill to train change of direction (positive first touch) and escaping an oncoming defender",
+      "sortOrder": 0,
+      "featured": false
+    },
+    {
+      "slug": "1v1-transition-box-nsew",
+      "title": "1v1 Transition Box (NSEW)",
+      "topics": [
+        "1v1",
+        "Transition",
+        "Dribbling",
+        "SSG"
+      ],
+      "summary": "A continuous team 1v1 drill (one team going north/south, other team east/west).  Attacker quickly transitions to defender when completing pass or dispossessed",
+      "sortOrder": 0,
+      "featured": false
+    },
+    {
+      "slug": "3v3-move-as-a-team-ssg",
+      "title": "3v3 Move as a Team SSG",
+      "topics": [
+        "Transition",
+        "SSG"
+      ],
+      "summary": "3v3 SSG with four goals and restriction to promote pressing forward together and recovery transitions.  **Goals only count if entire team is in the attacking half of the field.",
+      "sortOrder": 0,
+      "featured": false
+    },
+    {
+      "slug": "3v33-ssg-four-goal-with-scanning",
+      "title": "3v3+3 SSG four-goal with scanning",
+      "topics": [
+        "Scanning",
+        "SSG",
+        "Passing",
+        "Transition"
+      ],
+      "summary": "A four goal SSG with scanning cues to unlock and finish on specific (color) goals.  This SSG helps promote awareness of surroundings without a set directional play for a given team, and has competitive scoring to goal.",
+      "sortOrder": 0,
+      "featured": false
+    },
+    {
+      "slug": "4v2-and-5v2-build-out-diamond-rondo",
+      "title": "4v2 and 5v2 Build Out Diamond Rondo",
+      "topics": [
+        "Passing",
+        "Build Out",
+        "Rondo"
+      ],
+      "summary": "an excellent rondo to work on creating and using supporting angles, and penetrating forward.  4v2 with one defender fixed at a halfway line, progress to add a 5th offender centrally",
+      "sortOrder": 0,
+      "featured": false
+    },
+    {
+      "slug": "8-cone-passing-pattern",
+      "title": "8 cone passing pattern",
+      "topics": [
+        "Undefended",
+        "Passing"
+      ],
+      "summary": "A basic group passing pattern for working on back foot receiving, and follow-your-pass flow;",
+      "sortOrder": 0,
+      "featured": false
+    },
+    {
+      "slug": "belgium-box-passing-pattern",
+      "title": "Belgium Box Passing Pattern",
+      "topics": [
+        "Communication",
+        "Passing",
+        "First Touch",
+        "Undefended",
+        "Pre-Game"
+      ],
+      "summary": "8+ man passing pattern in Belgium Box (”through”, “drop”, “through”, “switch”)",
+      "sortOrder": 0,
+      "featured": false
+    },
+    {
+      "slug": "coerver-ball-mastery-1",
+      "title": "Coerver Ball Mastery 1",
+      "topics": [
+        "Solo Training",
+        "Ball Mastery",
+        "Dribbling",
+        "Undefended"
+      ],
+      "summary": "Ball mastery solo training sequence",
+      "sortOrder": 0,
+      "featured": false
+    },
+    {
+      "slug": "coerver-ball-mastery-2",
+      "title": "Coerver Ball Mastery 2",
+      "topics": [
+        "Solo Training",
+        "Ball Mastery",
+        "Dribbling",
+        "Undefended"
+      ],
+      "summary": "Ball mastery solo training sequence",
+      "sortOrder": 0,
+      "featured": false
+    },
+    {
+      "slug": "competitive-passing-drill",
+      "title": "Competitive Passing Drill",
+      "topics": [
+        "Passing",
+        "Relay Race"
+      ],
+      "summary": "Competitive relay race to promote fast passing sequences",
+      "sortOrder": 0,
+      "featured": false
+    },
+    {
+      "slug": "diamond-passing-pattern-drills-wtechnical-footwork",
+      "title": "Diamond Passing Pattern Drills (w/technical footwork)",
+      "topics": [
+        "Passing",
+        "Undefended"
+      ],
+      "summary": "4-pole diamond passing work for variable group size to work on receiving and turning moves (e.g. V-Turn)",
+      "sortOrder": 0,
+      "featured": false
+    },
+    {
+      "slug": "dont-dive-in-1v1-drill",
+      "title": "Don’t Dive In 1v1 Drill",
+      "topics": [
+        "Defending",
+        "1v1",
+        "Finishing",
+        "SSG"
+      ],
+      "summary": "Objective is for dribbler score in one of the two goals. Defenders cannot cross the line of cones, and instead should focus on cutting off the shot angle, forcing dribbler to move…",
+      "sortOrder": 0,
+      "featured": false
+    },
+    {
+      "slug": "dribbling-through-the-square-race",
+      "title": "Dribbling through the square race",
+      "topics": [
+        "Relay Race",
+        "Dribbling"
+      ],
+      "summary": "A competitive dribbling-in-chaos race which helps train on small vs. bigger touches (when space allows it) by alternating between smaller squares and larger squares.",
+      "sortOrder": 0,
+      "featured": false
+    },
+    {
+      "slug": "finishing-combo-with-overlap-and-underlap",
+      "title": "Finishing combo with overlap and underlap",
+      "topics": [
+        "Passing",
+        "Overloads",
+        "Undefended",
+        "Finishing"
+      ],
+      "summary": "An engaging and continuous passing pattern with a good cross and finish to goal.  \n\nThis drill pairs well with the basic underlap/overlap drills and is best performed in-context of a striped pitch.  You can open this up (larger) or keep it tight on small puggs.\n\nSomewhat complex pattern to reset the drill tends to engage kids and they self-organize flow after climbing the learning curve.",
+      "sortOrder": 0,
+      "featured": false
+    },
+    {
+      "slug": "four-zone-team-relay-race",
+      "title": "Four Zone team relay race",
+      "topics": [
+        "Relay Race",
+        "Passing",
+        "Third Man Runs"
+      ],
+      "summary": "A fun team-based relay race that promotes quick passing work together.",
+      "sortOrder": 0,
+      "featured": false
+    },
+    {
+      "slug": "moving-triangle-passing-pattern",
+      "title": "Moving Triangle Passing Pattern",
+      "topics": [
+        "Passing",
+        "Undefended",
+        "Triangles"
+      ],
+      "summary": "A diamond passing pattern that works 3-man triangle passes, ideally with one-touch passing.  Excellent for body shape and pass weighting reps",
+      "sortOrder": 0,
+      "featured": false
+    },
+    {
+      "slug": "pairs-aggressive-receiving-relay-race",
+      "title": "Pairs Aggressive Receiving Relay Race",
+      "topics": [
+        "Relay Race",
+        "First Touch",
+        "Passing"
+      ],
+      "summary": "This is a simple pairs relay race that allows you to train positive first touch in a competitive format.  This is also decent conditioning as they’re racing.",
+      "sortOrder": 0,
+      "featured": false
+    },
+    {
+      "slug": "pass-set-through-continuous-3-man-passing-pattern",
+      "title": "Pass-Set-Through Continuous 3-man passing pattern",
+      "topics": [
+        "Third Man Runs",
+        "Passing",
+        "Undefended",
+        "Activation"
+      ],
+      "summary": "Simple vertical 3-man pattern with two variations to work on set passes and set-pass-through.  Not a third-man run drill per se, but good foundations for this.",
+      "sortOrder": 0,
+      "featured": false
+    },
+    {
+      "slug": "passing-activation-drill-w-half-turns",
+      "title": "Passing Activation Drill w half turns",
+      "topics": [
+        "Passing",
+        "Undefended",
+        "Activation",
+        "Scanning"
+      ],
+      "summary": "Straight-line passing activation drill with focus on sliding outward to receive and half turn through.  See progressions for the nuances on the technical work",
+      "sortOrder": 0,
+      "featured": false
+    },
+    {
+      "slug": "quick-fire-overloads-3v2-ssg",
+      "title": "Quick Fire Overloads 3v2 SSG",
+      "topics": [
+        "Third Man Runs",
+        "SSG",
+        "Passing",
+        "Finishing",
+        "Overloads"
+      ],
+      "summary": "A great 3v2 continuous SSG promoting overloads and quick transitions",
+      "sortOrder": 0,
+      "featured": false
+    },
+    {
+      "slug": "scan-and-turn-quick-decision-drill",
+      "title": "Scan and Turn - Quick Decision Drill",
+      "topics": [
+        "Scanning",
+        "Passing",
+        "Undefended"
+      ],
+      "summary": "A drill to hammer home shoulder check, where the objective is to complete a fast turn and pass to a player called out as the pass is arriving.",
+      "sortOrder": 0,
+      "featured": false
+    },
+    {
+      "slug": "support-the-pass-drill",
+      "title": "Support the Pass Drill",
+      "topics": [
+        "Passing",
+        "Third Man Runs",
+        "Undefended",
+        "Triangles"
+      ],
+      "summary": "A moving passing drill to promote third man support and well-weighted short passing. Pairs go down the line, using positioned teammates for quick set passes for up-back-through action.",
+      "sortOrder": 0,
+      "featured": false
+    },
+    {
+      "slug": "technical-skills-turning-with-the-ball",
+      "title": "Technical Skills: Turning with the Ball",
+      "topics": [
+        "Dribbling",
+        "Ball Mastery",
+        "Undefended",
+        "Solo Training"
+      ],
+      "summary": "Perform 30-60 second sets of the various moves, training both feet/directions: 1) Inside Turn (quick turn using inside of foot to change ball direction quickly, using body to shie…",
+      "sortOrder": 0,
+      "featured": false
+    }
+  ],
+  "generatedAt": "2026-04-17T04:04:54.954Z",
+  "warnings": {
+    "missingPublishProperty": false
+  }
+}
