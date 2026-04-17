@@ -109,6 +109,7 @@ img {
 }
 
 .hero,
+.about-hero,
 .page-header,
 .session-card,
 .detail-shell,
@@ -121,6 +122,15 @@ img {
 .hero {
   display: grid;
   grid-template-columns: 1.8fr 1fr;
+  gap: 2rem;
+  padding: clamp(1.5rem, 4vw, 3rem);
+  border-radius: 28px;
+  align-items: start;
+}
+
+.about-hero {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
   gap: 2rem;
   padding: clamp(1.5rem, 4vw, 3rem);
   border-radius: 28px;
@@ -238,6 +248,69 @@ img {
   line-height: 1.8;
   font-size: 0.98rem;
   max-width: 30ch;
+}
+
+.about-intro {
+  margin: 1.25rem 0 0;
+  color: var(--text);
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  line-height: 1.85;
+  font-weight: 500;
+  max-width: 60ch;
+}
+
+.about-image-frame {
+  padding: 1.1rem;
+  border-radius: 28px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.7), rgba(244, 235, 224, 0.82));
+  border: 1px solid rgba(78, 47, 52, 0.08);
+  box-shadow: var(--shadow);
+}
+
+.about-image {
+  width: 100%;
+  border-radius: 18px;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.4rem;
+  margin-top: 1.8rem;
+}
+
+.about-panel {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  padding: 1.5rem;
+  box-shadow: var(--shadow);
+}
+
+.about-panel h2 {
+  margin: 0 0 0.9rem;
+  font-family: var(--font-serif);
+  font-size: 1.65rem;
+  line-height: 1;
+  letter-spacing: -0.025em;
+}
+
+.about-prose p {
+  margin: 0 0 0.95rem;
+  color: var(--muted);
+  font-family: var(--font-sans);
+  font-size: 0.98rem;
+  line-height: 1.82;
+  font-weight: 500;
+}
+
+.about-prose p:last-child {
+  margin-bottom: 0;
+}
+
+.about-cta {
+  margin: 1.2rem 0 0;
 }
 
 .page-header,
@@ -698,6 +771,10 @@ img {
     grid-template-columns: 1fr;
   }
 
+  .about-hero {
+    grid-template-columns: 1fr;
+  }
+
   .site-main {
     width: min(100% - 1rem, 1120px);
   }
@@ -730,6 +807,10 @@ img {
   .drill-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 1.5rem 1rem;
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr;
   }
 }
 

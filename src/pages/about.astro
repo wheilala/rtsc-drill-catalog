@@ -1,0 +1,93 @@
+---
+import SiteLayout from "../layouts/SiteLayout.astro";
+import { withBase } from "../lib/paths.js";
+import excellenceImage from "../../content/site-images/rtsc-excellence.jpg";
+---
+
+<SiteLayout
+  title="About | Wayne's RTSC Drill Catalog"
+  description="How this coaching library is built and maintained."
+>
+  <section class="about-hero">
+    <div class="about-copy">
+      <p class="eyebrow">About this library</p>
+      <h1>Collected slowly, tested in real sessions, shared simply.</h1>
+      <p class="lede">
+        This catalog is my way of organizing drills and session ideas that I pick up over time from other coaches,
+        conversations, videos, articles, and trial-and-error on the field.
+      </p>
+      <p class="about-intro">
+        I keep the working version in Notion, add to it gradually, and publish selected drills here so other coaches in
+        our circle can browse, reuse, and adapt what is useful.
+      </p>
+    </div>
+    <div class="about-image-frame">
+      <img class="about-image" src={excellenceImage.src} alt="Rose Tree Soccer excellence graphic" />
+    </div>
+  </section>
+
+  <section class="about-grid">
+    <article class="about-panel">
+      <h2>How the content comes together</h2>
+      <div class="about-prose">
+        <p>
+          Most of these drills were not invented from scratch. They come from the normal coaching process: hearing
+          something from another coach, seeing a useful pattern online, adapting an activity for a team need, and then
+          keeping the version that actually works in practice.
+        </p>
+        <p>
+          Over time, I add notes, diagrams, and video references so the drill is easier to revisit later. This site is
+          the cleaner, shareable version of that ongoing collection.
+        </p>
+      </div>
+    </article>
+
+    <article class="about-panel">
+      <h2>How the workflow works</h2>
+      <div class="about-prose">
+        <p>
+          The source material lives in my Notion drill database. That is where I maintain titles, topics, diagrams,
+          instructions, progressions, and links.
+        </p>
+        <p>
+          When a drill is ready to share, I mark it for publishing. A small sync process pulls that content out of
+          Notion, saves the published version locally, and then the site is rebuilt as a fast static library.
+        </p>
+        <p>
+          In plain English: I organize privately in Notion, then publish the useful pieces here for other coaches.
+        </p>
+      </div>
+    </article>
+
+    <article class="about-panel">
+      <h2>The tech, in simple terms</h2>
+      <div class="about-prose">
+        <p>
+          This is a lightweight static website, which means it loads quickly and does not depend on a big live backend.
+          Notion is the working notebook. This site is the public-facing library.
+        </p>
+        <p>
+          The drill pages are generated from selected Notion content, along with mirrored images, so the published site
+          stays stable and easy to browse.
+        </p>
+      </div>
+    </article>
+
+    <article class="about-panel">
+      <h2>Why it exists</h2>
+      <div class="about-prose">
+        <p>
+          The goal is not to build a giant coaching platform. It is simply to make useful session resources easier to
+          find, easier to revisit, and easier to share with fellow RTSC coaches.
+        </p>
+        <p>
+          If something here helps another coach plan faster, explain more clearly, or run a better session, then the
+          library is doing its job.
+        </p>
+      </div>
+      <p class="about-cta">
+        <a class="button-link" href={withBase("/drills")}>Browse the drill catalog</a>
+      </p>
+    </article>
+  </section>
+</SiteLayout>
